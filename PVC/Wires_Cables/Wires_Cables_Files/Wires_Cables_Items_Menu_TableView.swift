@@ -13,11 +13,11 @@ class Wires_Cables_Items_Menu_TableView: UIViewController ,UITableViewDataSource
     @IBOutlet weak var wires_cables_menuitem_ListTable: UITableView!
        
 
-    override func viewDidLoad() {
+    override func viewDidLoad()
+    {
         super.viewDidLoad()
         wires_cables_menuitem_ListTable.dataSource = self
         wires_cables_menuitem_ListTable.delegate = self       
-        
 
     }
 
@@ -50,8 +50,9 @@ class Wires_Cables_Items_Menu_TableView: UIViewController ,UITableViewDataSource
       wires_cables_details_menu_tableview.initWires_Cables_Details_Menu(itemlist_menu_categories: sender as! Wires_Cables_Category_List_Menu)
         }
     }
+}
    
  
 
     
-}
+

@@ -43,12 +43,48 @@ class Wires_Cables_Details_Menu_TableView: UIViewController ,UITableViewDataSour
     
     func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath)
     {
-        let  formulation_menu =
+        
+        
+        let detailMenu = wires_cables_details_menu[indexPath.row]
+        let type = detailMenu.type
+        
+        var  formulation_menu: Wires_Cables_Details_Menu?
+        
+        switch type {
+        case "A":
+            formulation_menu =
                 Wires_Cables_Category_MasterData.instance.getformulations_type_a()[indexPath.row]
+        case "C":
+            formulation_menu =
+                Wires_Cables_Category_MasterData.instance.getformulations_type_c()[indexPath.row]
+        case "D":
+            formulation_menu =
+                Wires_Cables_Category_MasterData.instance.getformulations_type_d()[indexPath.row]
+        case "F":
+            formulation_menu =
+                Wires_Cables_Category_MasterData.instance.getformulations_type_frls()[indexPath.row]
+        case "F_ST":
+            formulation_menu =
+                Wires_Cables_Category_MasterData.instance.getformulations_type_frls_st()[indexPath.row]
+        case "T_ST":
+            formulation_menu =
+                Wires_Cables_Category_MasterData.instance.getformulations_type_tele_st()[indexPath.row]
+        case "NON_FR_SKIN":
+            formulation_menu = Wires_Cables_Category_MasterData.instance.get_type_non_fr_skin()[indexPath.row]
+        case "ST_MCORE":
+            formulation_menu = Wires_Cables_Category_MasterData.instance.get_type_st_mcore()[indexPath.row]
+        case "ST_MCORE_SH":
+            formulation_menu = Wires_Cables_Category_MasterData.instance.get_type_st_shriram_formulations()[indexPath.row]
+        case "PC":
+            formulation_menu = Wires_Cables_Category_MasterData.instance.get_type_pc()[indexPath.row]
+        default:
+            formulation_menu =
+                Wires_Cables_Category_MasterData.instance.getformulations_type_a()[indexPath.row]
+        }
         
         performSegue(withIdentifier: "WC_Formulation_Segue", sender: formulation_menu)
+        }
 
-    }
     override func prepare(for segue: UIStoryboardSegue, sender: Any?)
         {
         if let formulation_menu_tableview = segue.destination as? WC_Formulation_TableView

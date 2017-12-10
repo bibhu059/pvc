@@ -18,11 +18,31 @@
 		3F14D6A61F9CAC0600DA595B /* MasterData_for_Declaration_WC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F14D6A51F9CAC0600DA595B /* MasterData_for_Declaration_WC.swift */; };
 		3F14D6A91F9CAE7600DA595B /* Wires_Cables_Menu_Cell_IdentifierTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F14D6A81F9CAE7600DA595B /* Wires_Cables_Menu_Cell_IdentifierTableViewCell.swift */; };
 		3F2D583D1FA24CF900B6D5AF /* Wires_Cables_Formulation_Menu.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F2D583C1FA24CF900B6D5AF /* Wires_Cables_Formulation_Menu.swift */; };
+		3F39BF161FDCDE0A00529532 /* MasterData_for_Declaration_Automotives.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F39BF151FDCDE0A00529532 /* MasterData_for_Declaration_Automotives.swift */; };
+		3F39BF181FDCDE2C00529532 /* MasterData_for_Declaration_Masterbatches.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F39BF171FDCDE2C00529532 /* MasterData_for_Declaration_Masterbatches.swift */; };
+		3F39BF1A1FDCDE4200529532 /* MasterData_for_Declaration_Rigids.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F39BF191FDCDE4200529532 /* MasterData_for_Declaration_Rigids.swift */; };
+		3F39BF1C1FDCDE6000529532 /* MasterData_for_Declaration_InjectionMoldings.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F39BF1B1FDCDE6000529532 /* MasterData_for_Declaration_InjectionMoldings.swift */; };
+		3F39BF1E1FDCDE9B00529532 /* MasterData_for_Declaration_Footwear.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F39BF1D1FDCDE9B00529532 /* MasterData_for_Declaration_Footwear.swift */; };
+		3F7B16521FDCE0DD006357E5 /* Automotives_Category_List_Menu.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F7B16511FDCE0DD006357E5 /* Automotives_Category_List_Menu.swift */; };
+		3F7B16541FDCE16A006357E5 /* Masterbatches_Category_List_Menu.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F7B16531FDCE16A006357E5 /* Masterbatches_Category_List_Menu.swift */; };
+		3F7B16561FDCE32D006357E5 /* Rigid_Catergory_List_Menu.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F7B16551FDCE32D006357E5 /* Rigid_Catergory_List_Menu.swift */; };
+		3F7B16581FDCE7C8006357E5 /* Automotives_Menu_Cell_IdentifierTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F7B16571FDCE7C8006357E5 /* Automotives_Menu_Cell_IdentifierTableViewCell.swift */; };
+		3F7B165A1FDCE883006357E5 /* AT_Items_Menu_TableView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F7B16591FDCE883006357E5 /* AT_Items_Menu_TableView.swift */; };
+		3F7B165C1FDCEF63006357E5 /* Automotives_Grades_List_Menu.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F7B165B1FDCEF63006357E5 /* Automotives_Grades_List_Menu.swift */; };
+		3F7B165E1FDCF018006357E5 /* AT_Grades_Menu_TableView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F7B165D1FDCF018006357E5 /* AT_Grades_Menu_TableView.swift */; };
+		3F7B16601FDCF074006357E5 /* Automotives_Grades_Menu_Cell_IdentifierTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F7B165F1FDCF074006357E5 /* Automotives_Grades_Menu_Cell_IdentifierTableViewCell.swift */; };
+		3F7B16621FDCFE40006357E5 /* AT_Formulation_TableView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F7B16611FDCFE40006357E5 /* AT_Formulation_TableView.swift */; };
+		3F7B16641FDCFE72006357E5 /* Automotives_Forumulation_TableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F7B16631FDCFE72006357E5 /* Automotives_Forumulation_TableViewCell.swift */; };
+		3F7B16661FDCFE99006357E5 /* Automotives_Formulation_Menu.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F7B16651FDCFE99006357E5 /* Automotives_Formulation_Menu.swift */; };
 		3FC24A2E1F9E23990067836D /* Wires_Cables_Menu_Details_Cell_IdentifierTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FC24A2D1F9E23990067836D /* Wires_Cables_Menu_Details_Cell_IdentifierTableViewCell.swift */; };
 		3FC24A301F9E26480067836D /* Wires_Cables_Details_Menu.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FC24A2F1F9E26480067836D /* Wires_Cables_Details_Menu.swift */; };
 		3FC24A321F9E2AD10067836D /* Wires_Cables_Details_Menu_TableView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FC24A311F9E2AD10067836D /* Wires_Cables_Details_Menu_TableView.swift */; };
 		3FCA59741FA38AF700C82709 /* Wires_Cables_Formulation_TableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FCA59731FA38AF700C82709 /* Wires_Cables_Formulation_TableViewCell.swift */; };
 		3FCA59781FA38C5100C82709 /* WC_Formulation_TableView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FCA59771FA38C5100C82709 /* WC_Formulation_TableView.swift */; };
+		3FD727CE1FDC25400071DAF7 /* MasterData_for_Declaration_Medical.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FD727CD1FDC25400071DAF7 /* MasterData_for_Declaration_Medical.swift */; };
+		3FD727DB1FDC28570071DAF7 /* Medicals_Category_List_Menu.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FD727DA1FDC28570071DAF7 /* Medicals_Category_List_Menu.swift */; };
+		3FD727DD1FDC2A0E0071DAF7 /* Medicals_Cell_IdentifierTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FD727DC1FDC2A0E0071DAF7 /* Medicals_Cell_IdentifierTableViewCell.swift */; };
+		3FD727E31FDC4D270071DAF7 /* Medicals_Item_Menu_TableView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FD727E21FDC4D270071DAF7 /* Medicals_Item_Menu_TableView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -39,11 +59,31 @@
 		3F14D6A51F9CAC0600DA595B /* MasterData_for_Declaration_WC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MasterData_for_Declaration_WC.swift; sourceTree = "<group>"; };
 		3F14D6A81F9CAE7600DA595B /* Wires_Cables_Menu_Cell_IdentifierTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Wires_Cables_Menu_Cell_IdentifierTableViewCell.swift; sourceTree = "<group>"; };
 		3F2D583C1FA24CF900B6D5AF /* Wires_Cables_Formulation_Menu.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Wires_Cables_Formulation_Menu.swift; sourceTree = "<group>"; };
+		3F39BF151FDCDE0A00529532 /* MasterData_for_Declaration_Automotives.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MasterData_for_Declaration_Automotives.swift; sourceTree = "<group>"; };
+		3F39BF171FDCDE2C00529532 /* MasterData_for_Declaration_Masterbatches.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MasterData_for_Declaration_Masterbatches.swift; sourceTree = "<group>"; };
+		3F39BF191FDCDE4200529532 /* MasterData_for_Declaration_Rigids.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MasterData_for_Declaration_Rigids.swift; sourceTree = "<group>"; };
+		3F39BF1B1FDCDE6000529532 /* MasterData_for_Declaration_InjectionMoldings.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MasterData_for_Declaration_InjectionMoldings.swift; sourceTree = "<group>"; };
+		3F39BF1D1FDCDE9B00529532 /* MasterData_for_Declaration_Footwear.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MasterData_for_Declaration_Footwear.swift; sourceTree = "<group>"; };
+		3F7B16511FDCE0DD006357E5 /* Automotives_Category_List_Menu.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Automotives_Category_List_Menu.swift; sourceTree = "<group>"; };
+		3F7B16531FDCE16A006357E5 /* Masterbatches_Category_List_Menu.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Masterbatches_Category_List_Menu.swift; sourceTree = "<group>"; };
+		3F7B16551FDCE32D006357E5 /* Rigid_Catergory_List_Menu.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Rigid_Catergory_List_Menu.swift; sourceTree = "<group>"; };
+		3F7B16571FDCE7C8006357E5 /* Automotives_Menu_Cell_IdentifierTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Automotives_Menu_Cell_IdentifierTableViewCell.swift; sourceTree = "<group>"; };
+		3F7B16591FDCE883006357E5 /* AT_Items_Menu_TableView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AT_Items_Menu_TableView.swift; sourceTree = "<group>"; };
+		3F7B165B1FDCEF63006357E5 /* Automotives_Grades_List_Menu.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Automotives_Grades_List_Menu.swift; sourceTree = "<group>"; };
+		3F7B165D1FDCF018006357E5 /* AT_Grades_Menu_TableView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AT_Grades_Menu_TableView.swift; sourceTree = "<group>"; };
+		3F7B165F1FDCF074006357E5 /* Automotives_Grades_Menu_Cell_IdentifierTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Automotives_Grades_Menu_Cell_IdentifierTableViewCell.swift; sourceTree = "<group>"; };
+		3F7B16611FDCFE40006357E5 /* AT_Formulation_TableView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AT_Formulation_TableView.swift; sourceTree = "<group>"; };
+		3F7B16631FDCFE72006357E5 /* Automotives_Forumulation_TableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Automotives_Forumulation_TableViewCell.swift; sourceTree = "<group>"; };
+		3F7B16651FDCFE99006357E5 /* Automotives_Formulation_Menu.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Automotives_Formulation_Menu.swift; sourceTree = "<group>"; };
 		3FC24A2D1F9E23990067836D /* Wires_Cables_Menu_Details_Cell_IdentifierTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Wires_Cables_Menu_Details_Cell_IdentifierTableViewCell.swift; sourceTree = "<group>"; };
 		3FC24A2F1F9E26480067836D /* Wires_Cables_Details_Menu.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Wires_Cables_Details_Menu.swift; sourceTree = "<group>"; };
 		3FC24A311F9E2AD10067836D /* Wires_Cables_Details_Menu_TableView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Wires_Cables_Details_Menu_TableView.swift; sourceTree = "<group>"; };
 		3FCA59731FA38AF700C82709 /* Wires_Cables_Formulation_TableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Wires_Cables_Formulation_TableViewCell.swift; sourceTree = "<group>"; };
 		3FCA59771FA38C5100C82709 /* WC_Formulation_TableView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WC_Formulation_TableView.swift; sourceTree = "<group>"; };
+		3FD727CD1FDC25400071DAF7 /* MasterData_for_Declaration_Medical.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MasterData_for_Declaration_Medical.swift; sourceTree = "<group>"; };
+		3FD727DA1FDC28570071DAF7 /* Medicals_Category_List_Menu.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Medicals_Category_List_Menu.swift; sourceTree = "<group>"; };
+		3FD727DC1FDC2A0E0071DAF7 /* Medicals_Cell_IdentifierTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Medicals_Cell_IdentifierTableViewCell.swift; sourceTree = "<group>"; };
+		3FD727E21FDC4D270071DAF7 /* Medicals_Item_Menu_TableView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Medicals_Item_Menu_TableView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -76,9 +116,14 @@
 		3F14D6891F9C9CF000DA595B /* PVC */ = {
 			isa = PBXGroup;
 			children = (
-				3F14D6A71F9CAE4700DA595B /* TableCell_Identifiers */,
+				3F39BF201FDCDEBE00529532 /* Footwear */,
+				3F39BF1F1FDCDEB100529532 /* Injection_Molding */,
+				3FD727D71FDC26B10071DAF7 /* Rigids */,
+				3FD727D61FDC26A60071DAF7 /* Masterbatches */,
+				3FD727D51FDC269F0071DAF7 /* Medicals */,
+				3FD727D41FDC26960071DAF7 /* Automotives */,
+				3FD727D31FDC262F0071DAF7 /* Wires_Cables */,
 				3F14D6A41F9CABCE00DA595B /* MasterData_for_Declaration */,
-				3F14D6A11F9CAAAA00DA595B /* Wires_Cables_Formulation_Files */,
 				3F14D69E1F9CA8B300DA595B /* View Controllers */,
 				3F14D68A1F9C9CF000DA595B /* AppDelegate.swift */,
 				3F14D68E1F9C9CF000DA595B /* Main.storyboard */,
@@ -94,9 +139,6 @@
 			isa = PBXGroup;
 			children = (
 				3F14D68C1F9C9CF000DA595B /* MainVC.swift */,
-				3F14D69F1F9CA93100DA595B /* Wires_Cables_Items_Menu_TableView.swift */,
-				3FC24A311F9E2AD10067836D /* Wires_Cables_Details_Menu_TableView.swift */,
-				3FCA59771FA38C5100C82709 /* WC_Formulation_TableView.swift */,
 			);
 			path = "View Controllers";
 			sourceTree = "<group>";
@@ -115,18 +157,244 @@
 			isa = PBXGroup;
 			children = (
 				3F14D6A51F9CAC0600DA595B /* MasterData_for_Declaration_WC.swift */,
+				3FD727CD1FDC25400071DAF7 /* MasterData_for_Declaration_Medical.swift */,
+				3F39BF151FDCDE0A00529532 /* MasterData_for_Declaration_Automotives.swift */,
+				3F39BF171FDCDE2C00529532 /* MasterData_for_Declaration_Masterbatches.swift */,
+				3F39BF191FDCDE4200529532 /* MasterData_for_Declaration_Rigids.swift */,
+				3F39BF1B1FDCDE6000529532 /* MasterData_for_Declaration_InjectionMoldings.swift */,
+				3F39BF1D1FDCDE9B00529532 /* MasterData_for_Declaration_Footwear.swift */,
 			);
 			path = MasterData_for_Declaration;
 			sourceTree = "<group>";
 		};
-		3F14D6A71F9CAE4700DA595B /* TableCell_Identifiers */ = {
+		3F39BF1F1FDCDEB100529532 /* Injection_Molding */ = {
+			isa = PBXGroup;
+			children = (
+				3F39BF291FDCDFB600529532 /* Injection_Molding_Files */,
+				3F39BF281FDCDFA300529532 /* Injection_Molding_TableView_Cell */,
+				3F39BF271FDCDF8E00529532 /* Injection_Molding_Formulation_Files */,
+			);
+			path = Injection_Molding;
+			sourceTree = "<group>";
+		};
+		3F39BF201FDCDEBE00529532 /* Footwear */ = {
+			isa = PBXGroup;
+			children = (
+				3F39BF2C1FDCDFF900529532 /* Footwear_Files */,
+				3F39BF2B1FDCDFE900529532 /* Footwear_TableView_Cell */,
+				3F39BF2A1FDCDFDC00529532 /* Footwear_Formulation_Files */,
+			);
+			path = Footwear;
+			sourceTree = "<group>";
+		};
+		3F39BF211FDCDF0500529532 /* Automotive_TableView_Cell */ = {
+			isa = PBXGroup;
+			children = (
+				3F7B16571FDCE7C8006357E5 /* Automotives_Menu_Cell_IdentifierTableViewCell.swift */,
+				3F7B165F1FDCF074006357E5 /* Automotives_Grades_Menu_Cell_IdentifierTableViewCell.swift */,
+				3F7B16631FDCFE72006357E5 /* Automotives_Forumulation_TableViewCell.swift */,
+			);
+			path = Automotive_TableView_Cell;
+			sourceTree = "<group>";
+		};
+		3F39BF221FDCDF1A00529532 /* Autotmotive_Files */ = {
+			isa = PBXGroup;
+			children = (
+				3F7B16591FDCE883006357E5 /* AT_Items_Menu_TableView.swift */,
+				3F7B165D1FDCF018006357E5 /* AT_Grades_Menu_TableView.swift */,
+				3F7B16611FDCFE40006357E5 /* AT_Formulation_TableView.swift */,
+			);
+			path = Autotmotive_Files;
+			sourceTree = "<group>";
+		};
+		3F39BF231FDCDF3300529532 /* Masterbatch_TableView_Cell */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Masterbatch_TableView_Cell;
+			sourceTree = "<group>";
+		};
+		3F39BF241FDCDF4400529532 /* Masterbatch_Files */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Masterbatch_Files;
+			sourceTree = "<group>";
+		};
+		3F39BF251FDCDF7200529532 /* Rigid_TableView_Cell */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Rigid_TableView_Cell;
+			sourceTree = "<group>";
+		};
+		3F39BF261FDCDF8200529532 /* Rigid_Files */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Rigid_Files;
+			sourceTree = "<group>";
+		};
+		3F39BF271FDCDF8E00529532 /* Injection_Molding_Formulation_Files */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Injection_Molding_Formulation_Files;
+			sourceTree = "<group>";
+		};
+		3F39BF281FDCDFA300529532 /* Injection_Molding_TableView_Cell */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Injection_Molding_TableView_Cell;
+			sourceTree = "<group>";
+		};
+		3F39BF291FDCDFB600529532 /* Injection_Molding_Files */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Injection_Molding_Files;
+			sourceTree = "<group>";
+		};
+		3F39BF2A1FDCDFDC00529532 /* Footwear_Formulation_Files */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Footwear_Formulation_Files;
+			sourceTree = "<group>";
+		};
+		3F39BF2B1FDCDFE900529532 /* Footwear_TableView_Cell */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Footwear_TableView_Cell;
+			sourceTree = "<group>";
+		};
+		3F39BF2C1FDCDFF900529532 /* Footwear_Files */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Footwear_Files;
+			sourceTree = "<group>";
+		};
+		3FD727CF1FDC25580071DAF7 /* Medical_Formulation_Files */ = {
+			isa = PBXGroup;
+			children = (
+				3FD727DA1FDC28570071DAF7 /* Medicals_Category_List_Menu.swift */,
+			);
+			path = Medical_Formulation_Files;
+			sourceTree = "<group>";
+		};
+		3FD727D01FDC256C0071DAF7 /* Automotive_Formulation_Files */ = {
+			isa = PBXGroup;
+			children = (
+				3F7B16511FDCE0DD006357E5 /* Automotives_Category_List_Menu.swift */,
+				3F7B165B1FDCEF63006357E5 /* Automotives_Grades_List_Menu.swift */,
+				3F7B16651FDCFE99006357E5 /* Automotives_Formulation_Menu.swift */,
+			);
+			path = Automotive_Formulation_Files;
+			sourceTree = "<group>";
+		};
+		3FD727D11FDC257A0071DAF7 /* Masterbatch_Formulation_Files */ = {
+			isa = PBXGroup;
+			children = (
+				3F7B16531FDCE16A006357E5 /* Masterbatches_Category_List_Menu.swift */,
+			);
+			path = Masterbatch_Formulation_Files;
+			sourceTree = "<group>";
+		};
+		3FD727D21FDC25900071DAF7 /* Rigid_Formulation_Files */ = {
+			isa = PBXGroup;
+			children = (
+				3F7B16551FDCE32D006357E5 /* Rigid_Catergory_List_Menu.swift */,
+			);
+			path = Rigid_Formulation_Files;
+			sourceTree = "<group>";
+		};
+		3FD727D31FDC262F0071DAF7 /* Wires_Cables */ = {
+			isa = PBXGroup;
+			children = (
+				3F14D6A11F9CAAAA00DA595B /* Wires_Cables_Formulation_Files */,
+				3FFFDC131FB6841B0020F742 /* Wires_Cables_TableView_Cell */,
+				3FFFDC121FB683E80020F742 /* Wires_Cables_Files */,
+			);
+			path = Wires_Cables;
+			sourceTree = "<group>";
+		};
+		3FD727D41FDC26960071DAF7 /* Automotives */ = {
+			isa = PBXGroup;
+			children = (
+				3F39BF221FDCDF1A00529532 /* Autotmotive_Files */,
+				3F39BF211FDCDF0500529532 /* Automotive_TableView_Cell */,
+				3FD727D01FDC256C0071DAF7 /* Automotive_Formulation_Files */,
+			);
+			path = Automotives;
+			sourceTree = "<group>";
+		};
+		3FD727D51FDC269F0071DAF7 /* Medicals */ = {
+			isa = PBXGroup;
+			children = (
+				3FD727D91FDC28130071DAF7 /* Medicals_Files */,
+				3FD727D81FDC27DB0071DAF7 /* Medical_TableView_Cell */,
+				3FD727CF1FDC25580071DAF7 /* Medical_Formulation_Files */,
+			);
+			path = Medicals;
+			sourceTree = "<group>";
+		};
+		3FD727D61FDC26A60071DAF7 /* Masterbatches */ = {
+			isa = PBXGroup;
+			children = (
+				3F39BF241FDCDF4400529532 /* Masterbatch_Files */,
+				3F39BF231FDCDF3300529532 /* Masterbatch_TableView_Cell */,
+				3FD727D11FDC257A0071DAF7 /* Masterbatch_Formulation_Files */,
+			);
+			path = Masterbatches;
+			sourceTree = "<group>";
+		};
+		3FD727D71FDC26B10071DAF7 /* Rigids */ = {
+			isa = PBXGroup;
+			children = (
+				3F39BF261FDCDF8200529532 /* Rigid_Files */,
+				3F39BF251FDCDF7200529532 /* Rigid_TableView_Cell */,
+				3FD727D21FDC25900071DAF7 /* Rigid_Formulation_Files */,
+			);
+			path = Rigids;
+			sourceTree = "<group>";
+		};
+		3FD727D81FDC27DB0071DAF7 /* Medical_TableView_Cell */ = {
+			isa = PBXGroup;
+			children = (
+				3FD727DC1FDC2A0E0071DAF7 /* Medicals_Cell_IdentifierTableViewCell.swift */,
+			);
+			path = Medical_TableView_Cell;
+			sourceTree = "<group>";
+		};
+		3FD727D91FDC28130071DAF7 /* Medicals_Files */ = {
+			isa = PBXGroup;
+			children = (
+				3FD727E21FDC4D270071DAF7 /* Medicals_Item_Menu_TableView.swift */,
+			);
+			path = Medicals_Files;
+			sourceTree = "<group>";
+		};
+		3FFFDC121FB683E80020F742 /* Wires_Cables_Files */ = {
+			isa = PBXGroup;
+			children = (
+				3F14D69F1F9CA93100DA595B /* Wires_Cables_Items_Menu_TableView.swift */,
+				3FC24A311F9E2AD10067836D /* Wires_Cables_Details_Menu_TableView.swift */,
+				3FCA59771FA38C5100C82709 /* WC_Formulation_TableView.swift */,
+			);
+			path = Wires_Cables_Files;
+			sourceTree = "<group>";
+		};
+		3FFFDC131FB6841B0020F742 /* Wires_Cables_TableView_Cell */ = {
 			isa = PBXGroup;
 			children = (
 				3F14D6A81F9CAE7600DA595B /* Wires_Cables_Menu_Cell_IdentifierTableViewCell.swift */,
 				3FC24A2D1F9E23990067836D /* Wires_Cables_Menu_Details_Cell_IdentifierTableViewCell.swift */,
 				3FCA59731FA38AF700C82709 /* Wires_Cables_Formulation_TableViewCell.swift */,
 			);
-			path = TableCell_Identifiers;
+			path = Wires_Cables_TableView_Cell;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -202,18 +470,38 @@
 			buildActionMask = 2147483647;
 			files = (
 				3FCA59781FA38C5100C82709 /* WC_Formulation_TableView.swift in Sources */,
+				3F39BF161FDCDE0A00529532 /* MasterData_for_Declaration_Automotives.swift in Sources */,
+				3F7B16581FDCE7C8006357E5 /* Automotives_Menu_Cell_IdentifierTableViewCell.swift in Sources */,
 				3FC24A321F9E2AD10067836D /* Wires_Cables_Details_Menu_TableView.swift in Sources */,
+				3F39BF1E1FDCDE9B00529532 /* MasterData_for_Declaration_Footwear.swift in Sources */,
+				3F7B165E1FDCF018006357E5 /* AT_Grades_Menu_TableView.swift in Sources */,
 				3F14D6A61F9CAC0600DA595B /* MasterData_for_Declaration_WC.swift in Sources */,
+				3F7B16621FDCFE40006357E5 /* AT_Formulation_TableView.swift in Sources */,
 				3F14D6A01F9CA93100DA595B /* Wires_Cables_Items_Menu_TableView.swift in Sources */,
+				3FD727DB1FDC28570071DAF7 /* Medicals_Category_List_Menu.swift in Sources */,
 				3FC24A301F9E26480067836D /* Wires_Cables_Details_Menu.swift in Sources */,
 				3F14D68D1F9C9CF000DA595B /* MainVC.swift in Sources */,
 				3F14D6A31F9CAAEE00DA595B /* Wires_Cables_Category_List_Menu.swift in Sources */,
+				3F7B16641FDCFE72006357E5 /* Automotives_Forumulation_TableViewCell.swift in Sources */,
+				3F39BF1C1FDCDE6000529532 /* MasterData_for_Declaration_InjectionMoldings.swift in Sources */,
+				3F7B16521FDCE0DD006357E5 /* Automotives_Category_List_Menu.swift in Sources */,
+				3F39BF181FDCDE2C00529532 /* MasterData_for_Declaration_Masterbatches.swift in Sources */,
 				3F14D68B1F9C9CF000DA595B /* AppDelegate.swift in Sources */,
 				3F14D69D1F9CA7B100DA595B /* BorderButton.swift in Sources */,
+				3F39BF1A1FDCDE4200529532 /* MasterData_for_Declaration_Rigids.swift in Sources */,
+				3F7B165C1FDCEF63006357E5 /* Automotives_Grades_List_Menu.swift in Sources */,
 				3F2D583D1FA24CF900B6D5AF /* Wires_Cables_Formulation_Menu.swift in Sources */,
+				3F7B16601FDCF074006357E5 /* Automotives_Grades_Menu_Cell_IdentifierTableViewCell.swift in Sources */,
+				3F7B16661FDCFE99006357E5 /* Automotives_Formulation_Menu.swift in Sources */,
+				3FD727CE1FDC25400071DAF7 /* MasterData_for_Declaration_Medical.swift in Sources */,
+				3FD727DD1FDC2A0E0071DAF7 /* Medicals_Cell_IdentifierTableViewCell.swift in Sources */,
+				3F7B16541FDCE16A006357E5 /* Masterbatches_Category_List_Menu.swift in Sources */,
 				3F14D6A91F9CAE7600DA595B /* Wires_Cables_Menu_Cell_IdentifierTableViewCell.swift in Sources */,
+				3FD727E31FDC4D270071DAF7 /* Medicals_Item_Menu_TableView.swift in Sources */,
 				3FC24A2E1F9E23990067836D /* Wires_Cables_Menu_Details_Cell_IdentifierTableViewCell.swift in Sources */,
+				3F7B16561FDCE32D006357E5 /* Rigid_Catergory_List_Menu.swift in Sources */,
 				3FCA59741FA38AF700C82709 /* Wires_Cables_Formulation_TableViewCell.swift in Sources */,
+				3F7B165A1FDCE883006357E5 /* AT_Items_Menu_TableView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

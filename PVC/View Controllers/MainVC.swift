@@ -9,17 +9,18 @@
 import UIKit
 
 class MainVC: UIViewController {
+    
+    @IBOutlet weak var category_layout: UIStackView!
+    
  
     override func viewDidLoad()
     {
         super.viewDidLoad()
+        category_layout.frame = view.frame
+        
        
     }
 
-    override func didReceiveMemoryWarning()
-    {
-  
-    }
 
 
 }

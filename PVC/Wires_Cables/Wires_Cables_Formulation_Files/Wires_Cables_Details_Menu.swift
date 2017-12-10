@@ -11,10 +11,12 @@ struct Wires_Cables_Details_Menu {
     
     private(set) public var grade_name: String
     private (set) public var version_name: String
+    private (set) public var type : String
     
-    init(grade_name: String , version_name: String) {
+    init(grade_name: String , version_name: String , type : String) {
         self.grade_name = grade_name
         self.version_name = version_name
+        self.type = type
         
     }
 }
