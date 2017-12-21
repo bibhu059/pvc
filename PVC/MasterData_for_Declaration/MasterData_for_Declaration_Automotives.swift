@@ -50,13 +50,17 @@ class Automotive_Grades_Category_MasterData {
          //HSI Grades Formulation Details
         case "AT-02KLF HS":
             return get_at02klfhs()
+        case "AWS 124 KH":
+            return get_aws124kh()
         default:
             return get_at02klfhs()
         }
     }
+    
+    //For Hyundai HSI Graades
     public let detail_formulation_at02klfhs = [
         Automotives_Grades_Formulation_Menu(chemical_name: "Resin S-70", phr_value: "125"),
-        Automotives_Grades_Formulation_Menu(chemical_name: "KBZ 290 S", phr_value: "2.5"),
+        Automotives_Grades_Formulation_Menu(chemical_name: "KBZ 290 S - Woo Chang", phr_value: "2.5"),
         Automotives_Grades_Formulation_Menu(chemical_name: "Calcium Stearate", phr_value: "0.625"),
         Automotives_Grades_Formulation_Menu(chemical_name: "Kanetol 1010 at 80°C", phr_value: "72.5"),
         Automotives_Grades_Formulation_Menu(chemical_name: "Epoxydized Soyabean Oil at 80°C", phr_value: "3.125"),
@@ -66,10 +70,27 @@ class Automotive_Grades_Category_MasterData {
         Automotives_Grades_Formulation_Menu(chemical_name: "Licocene PED 191 at 110°C", phr_value: "0.25"),
         Automotives_Grades_Formulation_Menu(chemical_name: "Stearic Acid", phr_value: "0.25"),
         Automotives_Grades_Formulation_Menu(chemical_name: "Monarch 800", phr_value: "1")
+        
     ]
     
+    public let details_formulation_aws124kh = [
+    Automotives_Grades_Formulation_Menu (chemical_name: "Resin S-75", phr_value: "125"),
+    Automotives_Grades_Formulation_Menu (chemical_name: "KBZ 290S - Woo Chang", phr_value: "2.5"),
+    Automotives_Grades_Formulation_Menu(chemical_name: "Kanetol-1010 at 60°C", phr_value: "88.75"),
+    Automotives_Grades_Formulation_Menu(chemical_name: "Epoxydized Soyabean Oil at 60°C", phr_value: "3.75"),
+    Automotives_Grades_Formulation_Menu(chemical_name: "Butyl Stearate at 110°C", phr_value: "0.625"),
+    Automotives_Grades_Formulation_Menu(chemical_name: "Paraloid K-125 P at 110°C", phr_value: "1.875"),
+    Automotives_Grades_Formulation_Menu(chemical_name: "AC 629 A at 110°C", phr_value: "0.25"),
+    Automotives_Grades_Formulation_Menu(chemical_name: "Calcium Stearate at 110°C", phr_value: "0.375"),
+    Automotives_Grades_Formulation_Menu(chemical_name: "Stearic Acid at 110°C", phr_value: "0.375"),
+    Automotives_Grades_Formulation_Menu(chemical_name: "Omyacarb 1T IP at 125°C", phr_value: "37.5"),
+    Automotives_Grades_Formulation_Menu(chemical_name: "Monarch - 800", phr_value: "1")
+    ]
     func get_at02klfhs()->[Automotives_Grades_Formulation_Menu]{
         return detail_formulation_at02klfhs
+    }
+    func get_aws124kh() ->[Automotives_Grades_Formulation_Menu]{
+        return details_formulation_aws124kh
     }
     
 }

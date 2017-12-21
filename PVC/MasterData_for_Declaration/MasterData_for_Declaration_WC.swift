@@ -14,16 +14,16 @@ class Wires_Cables_Category_MasterData {
     
     //Starting of Content Details
     private let itemlist_menu_categories = [
-        Wires_Cables_Category_List_Menu(title: "Compound for Power Cable"),
+        Wires_Cables_Category_List_Menu(title: "Power Cable Compounds"),
         Wires_Cables_Category_List_Menu(title: "Non FR SKIN Compounds"),
         Wires_Cables_Category_List_Menu(title: "Zero Halogen Flame Retardant"),
         Wires_Cables_Category_List_Menu(title: "Telephone Sheathing Compounds"),
         Wires_Cables_Category_List_Menu(title: "Flame Retardant Type-A Compounds"),
+        Wires_Cables_Category_List_Menu(title: "Flame Retardant Type-B Compounds"),
         Wires_Cables_Category_List_Menu(title: "Flame Retardant Type-C Compounds"),
         Wires_Cables_Category_List_Menu(title: "Flame Retardant Type-D Compounds"),
         Wires_Cables_Category_List_Menu(title: "Flame Retardant Low Smoke Type-A/Type-D"),
         Wires_Cables_Category_List_Menu(title: "Flame Retardant Low Smoke Sheathing"),
-        Wires_Cables_Category_List_Menu(title: "Sheathing Compounds for Power Cable"),
         Wires_Cables_Category_List_Menu(title: "Sheathing ST1 Compound for Multicore"),
         Wires_Cables_Category_List_Menu(title: "Sheathing ST3 Compounds for Multicore")
         
@@ -31,7 +31,7 @@ class Wires_Cables_Category_MasterData {
     //Ending of Content Details
     
     //This array contains the type of grades falling under Compound for Power Cable
-    public let itemlist_menu_categories_details_powercable_compound = [
+    private let itemlist_menu_categories_details_powercable_compound = [
         Wires_Cables_Details_Menu(grade_name: "PC 16 Normal", version_name: "1",type : "PC"),
         Wires_Cables_Details_Menu(grade_name: "PC 17 Normal", version_name: "1",type : "PC"),
         Wires_Cables_Details_Menu(grade_name: "PC 17 Harder", version_name: "1",type : "PC"),
@@ -41,15 +41,26 @@ class Wires_Cables_Category_MasterData {
     
     
     //This array contains the type of grades falling under Type-A Compound
-    public let itemlist_menu_categories_details_type_a = [
+    private let itemlist_menu_categories_details_type_a = [
         Wires_Cables_Details_Menu(grade_name: "FR Base M (A)600 LS", version_name: "1",type : "A"),
         Wires_Cables_Details_Menu(grade_name: "FR Base M (AH)700 LS", version_name: "1",type : "A"),
         Wires_Cables_Details_Menu(grade_name: "FR Base M (AH)900 LS", version_name: "2",type : "A"),
         Wires_Cables_Details_Menu(grade_name: "FR Base M PKD 500-600 LS", version_name: "1",type : "A"),
         Wires_Cables_Details_Menu(grade_name: "FR Base Type A (1.48 SG)", version_name: "1",type : "A"),
         Wires_Cables_Details_Menu(grade_name: "FR Base Type A (1.49 SG)", version_name: "1",type : "A"),
-        Wires_Cables_Details_Menu(grade_name:"FR Base Type A (1.50 SG)",version_name:"1",type:"A")
+        Wires_Cables_Details_Menu(grade_name:"FR Base Type A (1.50 SG)",version_name:"1",type:"A"),
+        Wires_Cables_Details_Menu(grade_name: "CW 06 TC - Shriram", version_name: "1", type: "A"),
+        Wires_Cables_Details_Menu(grade_name: "CW-25 - Shriram", version_name: "1", type: "A"),
+        Wires_Cables_Details_Menu(grade_name: "SFR 90M - Shriram", version_name: "1", type: "A"),
+        Wires_Cables_Details_Menu(grade_name: "CW 09 - Shriram", version_name: "1", type: "A"),
+        Wires_Cables_Details_Menu(grade_name: "CW 04 - Shriram", version_name: "1", type: "A"),
+        Wires_Cables_Details_Menu(grade_name: "CW 03 - Shriram", version_name: "1", type: "A"),
+        Wires_Cables_Details_Menu(grade_name: "Type A - Shriram", version_name: "1", type: "A")
   
+    ]
+    //This array contains the type of grades falling under Type-B Compound
+    private let itemlist_menu_categories_details_type_b = [
+    Wires_Cables_Details_Menu(grade_name: "Type B", version_name: "1", type: "B")
     ]
     //This array contains the type of grades falling under Type-C Compound
     private let itemlist_menu_categories_details_type_c = [
@@ -69,24 +80,27 @@ class Wires_Cables_Category_MasterData {
     //This array contains the type of grades falling under FRLS Insulation Compound
     private let itemlist_menu_categories_details_type_frls = [
         Wires_Cables_Details_Menu(grade_name: "FRLS Type-A / Type-D", version_name: "1",type : "F"),
+        Wires_Cables_Details_Menu(grade_name: "SFR-16 & SFR-24 - Shriram", version_name: "5", type: "F")
         
     ]
     //This array contains the type of grades falling under FRLS Sheathing Compound
     private let itemlist_menu_categories_details_type_frls_st = [
-        Wires_Cables_Details_Menu(grade_name: "FRLS Sheathing ST3 (1.60 SG)", version_name: "1",type : "F_ST"),
+        Wires_Cables_Details_Menu(grade_name: "FRLS Sheathing ST3 (1.60 SG)", version_name: "1",type : "F_ST")
         ]
     
     //This array contains the type of grades falling under Telephone Sheathing Compound
     private let itemlist_menu_categories_details_tele_st = [
         Wires_Cables_Details_Menu(grade_name: "Telephone Sheathing ST1 (1.46 SG)", version_name: "1",type : "T_ST"),
-        Wires_Cables_Details_Menu(grade_name: "Telecommunication Cable-Gupta", version_name: "1", type: "T_ST"),
-        Wires_Cables_Details_Menu(grade_name: "Type-B", version_name: "1", type: "T_ST")
+        Wires_Cables_Details_Menu(grade_name: "Telecommunication Cable-Gupta", version_name: "1", type: "T_ST")
         ]
     //This function is used to show the types of Non FR SKIN Compounds Which is used with Type A FR Compounds
     
     private let itemlist_menu_categories_details_non_fr_skin=[
         Wires_Cables_Details_Menu(grade_name: "NON FR High Speed SKIN(1.32 SG)", version_name: "1", type: "NON_FR_SKIN"),
         Wires_Cables_Details_Menu(grade_name: "NON FR Low Speed SKIN(1.34 SG)", version_name: "2", type: "NON_FR_SKIN"),
+        Wires_Cables_Details_Menu(grade_name: "CW 22 - Shriram SKIN", version_name: "1", type: "NON_FR_SKIN"),
+        Wires_Cables_Details_Menu(grade_name: "CW 23 - Shriram SKIN", version_name: "1", type: "NON_FR_SKIN"),
+        Wires_Cables_Details_Menu(grade_name: "SA 23 - Shriram SKIN", version_name: "1", type: "NON_FR_SKIN")
         ]
     //This function is used to show the types of Sheathing Compounds used in Multicore Cables
     private let itemlist_menu_categories_details_st_mcore=[
@@ -98,7 +112,11 @@ class Wires_Cables_Category_MasterData {
         Wires_Cables_Details_Menu(grade_name: "ST-1", version_name: "8", type: "ST_MCORE_SH"),
         Wires_Cables_Details_Menu(grade_name: "ST-2N", version_name: "20", type: "ST_MCORE_SH"),
         Wires_Cables_Details_Menu(grade_name: "ST-2H", version_name: "1", type: "ST_MCORE_SH"),
-        Wires_Cables_Details_Menu(grade_name: "SFR-16", version_name: "5", type: "ST_MCORE_SH")
+        Wires_Cables_Details_Menu(grade_name: "CW 20 - Shriram", version_name: "1", type: "ST_MCORE_SH"),
+        Wires_Cables_Details_Menu(grade_name: "CW 01 - Shriram", version_name: "1", type: "ST_MCORE_SH"),
+        Wires_Cables_Details_Menu(grade_name: "CW 02 - Shriram", version_name: "1", type: "ST_MCORE_SH"),
+        Wires_Cables_Details_Menu(grade_name: "CW 40 - Shriram", version_name: "1", type: "ST_MCORE_SH"),
+        Wires_Cables_Details_Menu(grade_name: "CW 27 - Shriram", version_name: "1", type: "ST_MCORE_SH")
         ]
     //This function is used to shows the types of cable compound in the table view
 
@@ -109,7 +127,7 @@ class Wires_Cables_Category_MasterData {
     func getItemlist_Menu_Categories_Details(forWires_Cables_Category_List_Menu_Name title:String) -> [Wires_Cables_Details_Menu] {
         
         switch title {
-        case "Compound for Power Cable":
+        case "Power Cable Compounds":
             return get_type_pc()
         case "Non FR SKIN Compounds":
             return get_type_non_fr_skin()
@@ -119,6 +137,8 @@ class Wires_Cables_Category_MasterData {
             return get_tele_st()
         case "Flame Retardant Type-A Compounds":
             return get_type_a()
+        case "Flame Retardant Type-B Compounds":
+            return get_type_b()
         case "Flame Retardant Type-C Compounds":
             return get_type_c()
         case "Flame Retardant Type-D Compounds":
@@ -127,8 +147,6 @@ class Wires_Cables_Category_MasterData {
             return get_type_f()
         case "Flame Retardant Low Smoke Sheathing":
             return get_type_f_st()
-        case "Sheathing Compounds for Power Cable":
-            return get_type_a()
         case "Sheathing ST1 Compound for Multicore":
             return get_type_st_shriram_formulations()
         case "Sheathing ST3 Compounds for Multicore":
@@ -149,6 +167,9 @@ class Wires_Cables_Category_MasterData {
     }
     func get_type_a() -> [Wires_Cables_Details_Menu] {
         return itemlist_menu_categories_details_type_a
+    }
+    func get_type_b() -> [Wires_Cables_Details_Menu]{
+        return itemlist_menu_categories_details_type_b
     }
     func get_type_c() -> [Wires_Cables_Details_Menu] {
         return itemlist_menu_categories_details_type_c
@@ -369,7 +390,110 @@ class Wires_Cables_Category_MasterData {
         Wires_Cables_Formulation_Menu(chemical_name: "Fine Plastaid-T", phr_value: "0.4")
         
     ]
+    private let wc_formulation_details_cw_06_tc_shriram = [
+    Wires_Cables_Formulation_Menu(chemical_name: "SR 10 A Resin", phr_value:"100"),
+    Wires_Cables_Formulation_Menu(chemical_name: "Calcium Zinc 8111", phr_value: "4"),
+    Wires_Cables_Formulation_Menu(chemical_name: "Hind Filler", phr_value: "75"),
+    Wires_Cables_Formulation_Menu(chemical_name: "PKX 2347", phr_value: "0.5"),
+    Wires_Cables_Formulation_Menu(chemical_name: "Bisphenol A", phr_value: "0.3"),
+    Wires_Cables_Formulation_Menu(chemical_name: "CPW 58%", phr_value: "24"),
+    Wires_Cables_Formulation_Menu(chemical_name: "DOP", phr_value: "26"),
+    Wires_Cables_Formulation_Menu(chemical_name: "Epoxydised Soyabean Oil", phr_value: "2.5"),
+    Wires_Cables_Formulation_Menu(chemical_name: "Calcium Stearate", phr_value: "0.5"),
+    Wires_Cables_Formulation_Menu(chemical_name: "Stearic Acid", phr_value: "0.3"),
+    Wires_Cables_Formulation_Menu(chemical_name: "Finawax P3", phr_value: "0.3")
+    ]
+    private let wc_formulation_details_type_a_shriram = [
+        Wires_Cables_Formulation_Menu(chemical_name: "SR 10 A Resin", phr_value:"100"),
+        Wires_Cables_Formulation_Menu(chemical_name: "Calcium Zinc 81/5", phr_value: "6"),
+        Wires_Cables_Formulation_Menu(chemical_name: "Hind Filler", phr_value: "72"),
+        Wires_Cables_Formulation_Menu(chemical_name: "Dibasic Lead Pthalate-Khera", phr_value: "1"),
+        Wires_Cables_Formulation_Menu(chemical_name: "Barium Stearate-Chemical India", phr_value: "6"),
+        Wires_Cables_Formulation_Menu(chemical_name: "CPW 58%", phr_value: "34"),
+        Wires_Cables_Formulation_Menu(chemical_name: "DOP", phr_value: "21  "),
+        Wires_Cables_Formulation_Menu(chemical_name: "Paraffin Wax", phr_value: "1.2"),
+        Wires_Cables_Formulation_Menu(chemical_name: "Bisphenol A", phr_value: "0.3"),
+        Wires_Cables_Formulation_Menu(chemical_name: "Calcium Stearate", phr_value: "0.5"),
+        Wires_Cables_Formulation_Menu(chemical_name: "Stearic Acid", phr_value: "0.6"),
+        Wires_Cables_Formulation_Menu(chemical_name: "Finawax P3", phr_value: "0.3")
+    ]
+    private let wc_formulation_details_type_cw_03_shriram = [
+        Wires_Cables_Formulation_Menu(chemical_name: "TK-1000 Resin", phr_value: "100"),
+        Wires_Cables_Formulation_Menu(chemical_name: "Hind Filler", phr_value: "45"),
+        Wires_Cables_Formulation_Menu(chemical_name: "Himapol", phr_value: "5"),
+        Wires_Cables_Formulation_Menu(chemical_name: "Tribaisc Lead Sulphate", phr_value: "5.5"),
+        Wires_Cables_Formulation_Menu(chemical_name: "Paraffin Wax", phr_value: "0.8"),
+        Wires_Cables_Formulation_Menu(chemical_name: "Bisphenol A", phr_value: "0.4"),
+        Wires_Cables_Formulation_Menu(chemical_name: "DOP", phr_value: "32"),
+        Wires_Cables_Formulation_Menu(chemical_name: "CPW 52%", phr_value: "23"),
+        Wires_Cables_Formulation_Menu(chemical_name: "Epoxydized Soyabean Oil", phr_value: "2.4"),
+        Wires_Cables_Formulation_Menu(chemical_name: "Calcium Stearate", phr_value: "0.3"),
+        Wires_Cables_Formulation_Menu(chemical_name: "Lead Stearate", phr_value: "0.8")
+    ]
+    private let wc_formulation_details_type_cw_04_shriram = [
+        Wires_Cables_Formulation_Menu(chemical_name: "TK-1300 Resin", phr_value: "100"),
+        Wires_Cables_Formulation_Menu(chemical_name: "Calcium Zinc 81 /5", phr_value: "3.5"),
+        Wires_Cables_Formulation_Menu(chemical_name: "Hind Filler", phr_value: "54.5"),
+        Wires_Cables_Formulation_Menu(chemical_name: "Himapol", phr_value: "4.5"),
+        Wires_Cables_Formulation_Menu(chemical_name: "PKX 2347", phr_value: "0.5"),
+        Wires_Cables_Formulation_Menu(chemical_name: "Titanium Dioxide", phr_value: "0.2"),
+        Wires_Cables_Formulation_Menu(chemical_name: "Paraffin Wax", phr_value: "1"),
+        Wires_Cables_Formulation_Menu(chemical_name: "DINP", phr_value: "35"),
+        Wires_Cables_Formulation_Menu(chemical_name: "Epoxydized Soyabean Oil", phr_value: "2"),
+        Wires_Cables_Formulation_Menu(chemical_name: "Calcium Stearate", phr_value: "1")
+    ]
+    private let wc_formulation_details_type_cw_09_shriram = [
+        Wires_Cables_Formulation_Menu(chemical_name: "SR 10A Resin", phr_value: "100"),
+        Wires_Cables_Formulation_Menu(chemical_name: "Calcium Zinc 81 /5", phr_value: "4"),
+        Wires_Cables_Formulation_Menu(chemical_name: "Hind Filler", phr_value: "38"),
+        Wires_Cables_Formulation_Menu(chemical_name: "Himapol", phr_value: "7"),
+        Wires_Cables_Formulation_Menu(chemical_name: "PKX 2347", phr_value: "1"),
+        Wires_Cables_Formulation_Menu(chemical_name: "Barium Stearate Chemical India", phr_value: "2"),
+        Wires_Cables_Formulation_Menu(chemical_name: "Titanium Dioxide - Huntsman", phr_value: "0.15"),
+        Wires_Cables_Formulation_Menu(chemical_name: "Bisphenol A", phr_value: "0.3"),
+        Wires_Cables_Formulation_Menu(chemical_name: "DOP", phr_value: "25"),
+        Wires_Cables_Formulation_Menu(chemical_name: "CPW 52%", phr_value: "25"),
+        Wires_Cables_Formulation_Menu(chemical_name: "Epoxydized Soyabean Oil", phr_value: "5"),
+        Wires_Cables_Formulation_Menu(chemical_name: "Finawax P3", phr_value: "0.5")
+    ]
+    private let wc_formulation_details_type_cw_25_shriram = [
+        Wires_Cables_Formulation_Menu(chemical_name: "TK-1300 Resin", phr_value: "100"),
+        Wires_Cables_Formulation_Menu(chemical_name: "Calcium Zinc 81 / 5", phr_value: "2"),
+        Wires_Cables_Formulation_Menu(chemical_name: "Hind Filler", phr_value: "68"),
+        Wires_Cables_Formulation_Menu(chemical_name: "Himapol", phr_value: "5"),
+        Wires_Cables_Formulation_Menu(chemical_name: "PKX 2347", phr_value: "0.5"),
+        Wires_Cables_Formulation_Menu(chemical_name: "Titanium Dioxide - Huntsman", phr_value: "0.2"),
+        Wires_Cables_Formulation_Menu(chemical_name: "Paraffin Wax", phr_value: "1"),
+        Wires_Cables_Formulation_Menu(chemical_name: "Bisphenol A", phr_value: "0.3"),
+        Wires_Cables_Formulation_Menu(chemical_name: "DINP", phr_value: "43"),
+        Wires_Cables_Formulation_Menu(chemical_name: "Epoxydized Soyabean Oil", phr_value: "3"),
+        Wires_Cables_Formulation_Menu(chemical_name: "Calcium Stearate", phr_value: "1")
+    ]
+    private let wc_formulation_details_type_sfr_90m_shriram = [
+        Wires_Cables_Formulation_Menu(chemical_name: "TK-1000 Resin", phr_value: "100"),
+        Wires_Cables_Formulation_Menu(chemical_name: "Hind Filler", phr_value: "55"),
+        Wires_Cables_Formulation_Menu(chemical_name: "SR Grade Khera", phr_value: "9"),
+        Wires_Cables_Formulation_Menu(chemical_name: "Antimony Trioxide", phr_value: "1.5"),
+        Wires_Cables_Formulation_Menu(chemical_name: "Zinc Borate Makwell / Nicknam", phr_value: "2"),
+        Wires_Cables_Formulation_Menu(chemical_name: "Bisphenol A", phr_value: "0.3"),
+        Wires_Cables_Formulation_Menu(chemical_name: "CPW 68%", phr_value: "30"),
+        Wires_Cables_Formulation_Menu(chemical_name: "DOP", phr_value: "27"),
+        Wires_Cables_Formulation_Menu(chemical_name: "Epoxydized Soyabean Oil", phr_value: "4"),
+        Wires_Cables_Formulation_Menu(chemical_name: "Licowax PE-520", phr_value: "0.4"),
+        Wires_Cables_Formulation_Menu(chemical_name: "Calcium Stearate", phr_value: "1")
+    ]
     
+    //Store the data of FR Base Type B Formulation
+    private let wc_formulation_details_type_b = [
+        Wires_Cables_Formulation_Menu(chemical_name: "SR-10A Resin", phr_value: "100"),
+        Wires_Cables_Formulation_Menu(chemical_name: "Hind Filler", phr_value: "12"),
+        Wires_Cables_Formulation_Menu(chemical_name: "Himapol", phr_value: "10"),
+        Wires_Cables_Formulation_Menu(chemical_name: "SR Grade-Khera", phr_value: "4"),
+        Wires_Cables_Formulation_Menu(chemical_name: "SR Grade-235-Khera", phr_value: "1"),
+        Wires_Cables_Formulation_Menu(chemical_name: "Stab 1001", phr_value: "0.8"),
+        Wires_Cables_Formulation_Menu(chemical_name: "Paraffin Wax", phr_value: "0.5"),
+        Wires_Cables_Formulation_Menu(chemical_name: "DINP", phr_value: "37"),
+        ]
     
     //Store the data of FR Base Type C Formulation
     private let wc_formulation_details_fr_type_c_1 = [
@@ -515,16 +639,6 @@ class Wires_Cables_Category_MasterData {
         Wires_Cables_Formulation_Menu(chemical_name: "Paraffin Wax", phr_value: "0.5"),
         Wires_Cables_Formulation_Menu(chemical_name: "DINP", phr_value: "30"),
     ]
-    private let wc_formulation_details_type_b = [
-        Wires_Cables_Formulation_Menu(chemical_name: "SR-10A Resin", phr_value: "100"),
-        Wires_Cables_Formulation_Menu(chemical_name: "Hind Filler", phr_value: "12"),
-        Wires_Cables_Formulation_Menu(chemical_name: "Himapol", phr_value: "10"),
-        Wires_Cables_Formulation_Menu(chemical_name: "SR Grade-Khera", phr_value: "4"),
-        Wires_Cables_Formulation_Menu(chemical_name: "SR Grade-235-Khera", phr_value: "1"),
-        Wires_Cables_Formulation_Menu(chemical_name: "Stab 1001", phr_value: "0.8"),
-        Wires_Cables_Formulation_Menu(chemical_name: "Paraffin Wax", phr_value: "0.5"),
-        Wires_Cables_Formulation_Menu(chemical_name: "DINP", phr_value: "37"),
-        ]
     //Store the data of NON FR SKIN Compound Formulation
     private let wc_formulation_details_non_fr_hs_skin = [
         Wires_Cables_Formulation_Menu(chemical_name: "P-1000 / TK-1000 Resin", phr_value: "100"),
@@ -549,6 +663,37 @@ class Wires_Cables_Category_MasterData {
         Wires_Cables_Formulation_Menu(chemical_name: "Paraffin Wax", phr_value: "0.5"),
         Wires_Cables_Formulation_Menu(chemical_name: "Lead Stearate", phr_value: "0.5"),
         
+    ]
+    private let wc_formulation_details_skin_cw_22_shriram = [
+        Wires_Cables_Formulation_Menu(chemical_name: "SR 10A Resin", phr_value: "100"),
+        Wires_Cables_Formulation_Menu(chemical_name: "Calcium Zinc 8666", phr_value: "3.2"),
+        Wires_Cables_Formulation_Menu(chemical_name: "Bissphenol A", phr_value: "0.5"),
+        Wires_Cables_Formulation_Menu(chemical_name: "DOP", phr_value: "30"),
+        Wires_Cables_Formulation_Menu(chemical_name: "CPW 52%", phr_value: "9.6"),
+        Wires_Cables_Formulation_Menu(chemical_name: "Epoxydized Soyabean Oil", phr_value: "3"),
+        Wires_Cables_Formulation_Menu(chemical_name: "Lucowax PE 520", phr_value: "0.2"),
+        Wires_Cables_Formulation_Menu(chemical_name: "QMIN 1QC / Omyacarb 1TIP", phr_value: "10")
+    ]
+    private let wc_formulation_details_skin_cw_23_shriram = [
+    Wires_Cables_Formulation_Menu(chemical_name: "SR 10A Resin", phr_value: "100"),
+    Wires_Cables_Formulation_Menu(chemical_name: "Omyacarb 1T IP", phr_value: "12"),
+    Wires_Cables_Formulation_Menu(chemical_name: "PKX 2347 / CaZn 8666", phr_value: "5.5"),
+    Wires_Cables_Formulation_Menu(chemical_name: "Bisphenol A", phr_value: "0.5"),
+    Wires_Cables_Formulation_Menu(chemical_name: "DOP", phr_value: "35"),
+    Wires_Cables_Formulation_Menu(chemical_name: "CPW 52%", phr_value: "6"),
+    Wires_Cables_Formulation_Menu(chemical_name: "Epoxydized Soyabean Oil", phr_value: "3"),
+    Wires_Cables_Formulation_Menu(chemical_name: "Lucowax PE 520", phr_value: "0.3")
+    ]
+    private let wc_formulation_details_skin_sa_23_shriram = [
+    Wires_Cables_Formulation_Menu(chemical_name: "SR 10 A Resin", phr_value: "100"),
+    Wires_Cables_Formulation_Menu(chemical_name: "Omyacarb 1T IP", phr_value: "5"),
+    Wires_Cables_Formulation_Menu(chemical_name: "Himapol", phr_value: "2"),
+    Wires_Cables_Formulation_Menu(chemical_name: "PKX 2347", phr_value: "5.5"),
+    Wires_Cables_Formulation_Menu(chemical_name: "Bisphenol A", phr_value: "0.5"),
+    Wires_Cables_Formulation_Menu(chemical_name: "Lucowax PE 520", phr_value: "0.5"),
+    Wires_Cables_Formulation_Menu(chemical_name: "DOP", phr_value: "28"),
+    Wires_Cables_Formulation_Menu(chemical_name: "CPW 52%", phr_value: "6"),
+    Wires_Cables_Formulation_Menu(chemical_name: "Epoxyidized Soyabean Oil", phr_value: "3")
     ]
     //Store the data of Sheathing Compound for Multicore Cable Applications Formulation
     private let wc_formulation_details_fr_st_mcore = [
@@ -617,7 +762,7 @@ class Wires_Cables_Category_MasterData {
         Wires_Cables_Formulation_Menu(chemical_name: "Calcium Stearate", phr_value: "1")
     ]
     private let wc_formulations_details_st_mcore_shriram_sfr16 = [
-    Wires_Cables_Formulation_Menu(chemical_name: "TK-1300 / SR-13A Resin", phr_value: "100"),
+    Wires_Cables_Formulation_Menu(chemical_name: "TK-1300 / SR-13A / S-70 Resin", phr_value: "100"),
     Wires_Cables_Formulation_Menu(chemical_name: "Hind Filler", phr_value: "4"),
     Wires_Cables_Formulation_Menu(chemical_name: "Magnesium Hydroixde-Nicknam", phr_value: "10"),
     Wires_Cables_Formulation_Menu(chemical_name: "Super Stab Pondy / Khera", phr_value: "4.5"),
@@ -629,6 +774,63 @@ class Wires_Cables_Category_MasterData {
     Wires_Cables_Formulation_Menu(chemical_name: "Stearic Acide", phr_value: "1"),
     Wires_Cables_Formulation_Menu(chemical_name: "Lead Stearate", phr_value: "0.5")
     ]
+    private let wc_formulations_details_st_mcore_shriram_cw01 = [
+        Wires_Cables_Formulation_Menu(chemical_name: "SR-10 A ", phr_value: "100"),
+        Wires_Cables_Formulation_Menu(chemical_name: "Hind Filler", phr_value: "39"),
+        Wires_Cables_Formulation_Menu(chemical_name: "DBLP", phr_value: "5.5"),
+        Wires_Cables_Formulation_Menu(chemical_name: "Paraffin Wax", phr_value: "1.2"),
+        Wires_Cables_Formulation_Menu(chemical_name: "Bisphenol A", phr_value: "0.3"),
+        Wires_Cables_Formulation_Menu(chemical_name: "DOP", phr_value: "27"),
+        Wires_Cables_Formulation_Menu(chemical_name: "CPW 52%", phr_value: "20"),
+        Wires_Cables_Formulation_Menu(chemical_name: "Epoxydized Soyabean Oil", phr_value: "2")
+    ]
+    private let wc_formulations_details_st_mcore_shriram_cw02 = [
+        Wires_Cables_Formulation_Menu(chemical_name: "TK-1300", phr_value: "100"),
+        Wires_Cables_Formulation_Menu(chemical_name: "Hind Filler", phr_value: "30"),
+        Wires_Cables_Formulation_Menu(chemical_name: "TBLS", phr_value: "7"),
+        Wires_Cables_Formulation_Menu(chemical_name: "DBLS", phr_value: "0.6"),
+        Wires_Cables_Formulation_Menu(chemical_name: "Paraffin Wax", phr_value: "1.2"),
+        Wires_Cables_Formulation_Menu(chemical_name: "Bisphenol A", phr_value: "0.3"),
+        Wires_Cables_Formulation_Menu(chemical_name: "DOP", phr_value: "27"),
+        Wires_Cables_Formulation_Menu(chemical_name: "CPW 52%", phr_value: "23"),
+        Wires_Cables_Formulation_Menu(chemical_name: "Epoxydized Soyabean Oil", phr_value: "2.8"),
+        Wires_Cables_Formulation_Menu(chemical_name: "Lead Stearate", phr_value: "0.5")
+    ]
+    private let wc_formulations_details_st_mcore_shriram_cw20 = [
+        Wires_Cables_Formulation_Menu(chemical_name: "Formosa S-70", phr_value: "100"),
+        Wires_Cables_Formulation_Menu(chemical_name: "Calcium Zinc 8111", phr_value: "4.5"),
+        Wires_Cables_Formulation_Menu(chemical_name: "Hind Filler", phr_value: "42"),
+        Wires_Cables_Formulation_Menu(chemical_name: "Bisphenol A", phr_value: "0.7"),
+        Wires_Cables_Formulation_Menu(chemical_name: "DOP", phr_value: "25"),
+        Wires_Cables_Formulation_Menu(chemical_name: "CPW 52%", phr_value: "25"),
+        Wires_Cables_Formulation_Menu(chemical_name: "Epoxydized Soyabean Oil", phr_value: "3"),
+        Wires_Cables_Formulation_Menu(chemical_name: "Stearic Acid", phr_value: "0.45"),
+        Wires_Cables_Formulation_Menu(chemical_name: "Finawax P3", phr_value: "0.35")
+    ]
+    private let wc_formulations_details_st_mcore_shriram_cw27 = [
+        Wires_Cables_Formulation_Menu(chemical_name: "Formosa S-70", phr_value: "100"),
+        Wires_Cables_Formulation_Menu(chemical_name: "Calcium Zinc 8111", phr_value: "2"),
+        Wires_Cables_Formulation_Menu(chemical_name: "Hind Filler", phr_value: "75"),
+        Wires_Cables_Formulation_Menu(chemical_name: "PKX 2347", phr_value: "0.5"),
+        Wires_Cables_Formulation_Menu(chemical_name: "Paraffin Wax", phr_value: "0.5"),
+        Wires_Cables_Formulation_Menu(chemical_name: "Bisphenol A", phr_value: "0.5"),
+        Wires_Cables_Formulation_Menu(chemical_name: "DOP", phr_value: "34"),
+        Wires_Cables_Formulation_Menu(chemical_name: "CPW 52%", phr_value: "24"),
+        Wires_Cables_Formulation_Menu(chemical_name: "Epoxydized Soyabean Oil", phr_value: "6"),
+        Wires_Cables_Formulation_Menu(chemical_name: "Calcium Stearate", phr_value: "0.3")
+    ]
+    private let wc_formulations_details_st_mcore_shriram_cw40 = [
+        Wires_Cables_Formulation_Menu(chemical_name: "TK-1300 Resin", phr_value: "100"),
+        Wires_Cables_Formulation_Menu(chemical_name: "Calcium Zinc 8111", phr_value: "3"),
+        Wires_Cables_Formulation_Menu(chemical_name: "Hind Filler", phr_value: "65"),
+        Wires_Cables_Formulation_Menu(chemical_name: "PKX 2347", phr_value: "0.5"),
+        Wires_Cables_Formulation_Menu(chemical_name: "Paraffin Wax", phr_value: "1"),
+        Wires_Cables_Formulation_Menu(chemical_name: "Bisphenol A", phr_value: "0.3"),
+        Wires_Cables_Formulation_Menu(chemical_name: "DOP", phr_value: "40"),
+        Wires_Cables_Formulation_Menu(chemical_name: "CPW 52%", phr_value: "29"),
+        Wires_Cables_Formulation_Menu(chemical_name: "Epoxydized Soyabean Oil", phr_value: "3.8"),
+        Wires_Cables_Formulation_Menu(chemical_name: "Calcium Stearate", phr_value: "0.3")
+    ]
 
     //This function is used to shows the formulations of types of compound in the table view
     func getformulations_type_pc()->[Wires_Cables_Details_Menu]{
@@ -636,6 +838,9 @@ class Wires_Cables_Category_MasterData {
     }
     func getformulations_type_a() -> [Wires_Cables_Details_Menu]{
      return itemlist_menu_categories_details_type_a   
+    }
+    func getformulations_type_b() ->[Wires_Cables_Details_Menu]{
+        return itemlist_menu_categories_details_type_b
     }
     func getformulations_type_c() -> [Wires_Cables_Details_Menu]{
         return itemlist_menu_categories_details_type_c
@@ -661,10 +866,7 @@ class Wires_Cables_Category_MasterData {
     func getformulations_type_st_mcore_shriram_formulations()->[Wires_Cables_Details_Menu]{
         return itemlist_menu_categories_details_st_mcore_shrriam
     }
-    
-    
-    
- 
+
     //Formulation Showing function & Details
     func getFormulaiton_Details(forWires_Cables_Grades grade_name:String , forWires_Cables_Version version_name:String) -> [Wires_Cables_Formulation_Menu] {
         
@@ -684,6 +886,24 @@ class Wires_Cables_Category_MasterData {
             return  show_type_a_1_49SG()
         case "FR Base Type A (1.50 SG)":
             return show_type_a_1_50SG()
+        case "CW 06 TC - Shriram":
+            return show_type_cw_06_tc_shriram()
+        case "Type A - Shriram":
+            return show_type_a_shriram()
+        case "CW-25 - Shriram":
+            return show_type_cw25_shriram()
+        case "SFR 90M - Shriram":
+            return show_type_sfr90m_shriram()
+        case "CW 09 - Shriram":
+            return show_type_cw09_shriram()
+        case "CW 04 - Shriram":
+            return show_type_cw04_shriram()
+        case "CW 03 - Shriram":
+            return show_type_cw03_shriram()
+         ////////////////////////////////////////////////////
+        //Type-B Category Wires & Cables Compound Formulation
+        case "Type B":
+            return show_type_b()
          //Type-C Category Wires & Cables Compound Formulation
         case "FR Base Type C (S-70)":
             return show_type_c_1()
@@ -701,6 +921,8 @@ class Wires_Cables_Category_MasterData {
         //FRLS Type -A & Type -D Category Wires & Cables Compound Formulation
         case "FRLS Type-A / Type-D":
             return show_type_frls()
+        case "SFR-16 & SFR-24 - Shriram":
+            return show_type_frlsh_shriram_sfr_16_24()
         case "FRLS Sheathing ST3 (1.60 SG)":
             return show_type_frls_st()
         //Telehpone Grades Compound Formulations
@@ -708,13 +930,17 @@ class Wires_Cables_Category_MasterData {
             return show_type_tele_st()
         case "Telecommunication Cable-Gupta":
             return show_type_tele_comm_gupta_st()
-        case "Type-B":
-            return show_type_b()
         //Non FR SKIN Compound Formulation
         case "NON FR High Speed SKIN(1.32 SG)":
             return show_type_non_fr_hs_skin()
         case "NON FR Low Speed SKIN(1.34 SG)":
             return show_type_non_fr_ls_skin()
+        case "CW 22 - Shriram SKIN":
+            return show_type_non_fr_cw22_shriram_skin()
+        case "CW 23 - Shriram SKIN":
+            return show_type_non_fr_cw23_shriram_skin()
+        case "SA 23 - Shriram SKIN":
+            return show_type_non_fr_sa23_shriram_skin()
         //Sheathing Compound Formulation-Anchor
         case "FR Sheathing ST3(1.50 SG)":
             return show_type_fr_st_mcore()
@@ -727,8 +953,17 @@ class Wires_Cables_Category_MasterData {
             return show_type_st_shriram_st_2n()
         case "ST-2H":
             return show_type_st_shriram_st_2h()
-        case "SFR-16":
-            return show_type_st_shriram_sfr_16()
+        case "CW 20 - Shriram":
+            return show_type_st_shriram_cw_20()
+        case "CW 01 - Shriram":
+            return show_type_st_shriram_cw_01()
+        case "CW 02 - Shriram":
+            return show_type_st_shriram_cw_02()
+        case "CW 40 - Shriram":
+            return show_type_st_shriram_cw_40()
+        case "CW 27 - Shriram":
+            return show_type_st_shriram_cw_27()
+        
         //Power Cable Compound Formulations-Shriram Axiall
         case "PC 16 Normal":
             return show_type_pc_16()
@@ -766,6 +1001,31 @@ class Wires_Cables_Category_MasterData {
     func show_type_a_1_50SG()->[Wires_Cables_Formulation_Menu]{
         return wc_formulation_details_fr_type_a_1_50SG
     }
+    func show_type_cw_06_tc_shriram()->[Wires_Cables_Formulation_Menu]{
+        return wc_formulation_details_cw_06_tc_shriram
+    }
+    func show_type_a_shriram()->[Wires_Cables_Formulation_Menu]{
+        return wc_formulation_details_type_a_shriram
+    }
+    func show_type_cw25_shriram() -> [Wires_Cables_Formulation_Menu]{
+        return wc_formulation_details_type_cw_25_shriram
+    }
+    func show_type_sfr90m_shriram() -> [Wires_Cables_Formulation_Menu]{
+        return wc_formulation_details_type_sfr_90m_shriram
+    }
+    func show_type_cw09_shriram() -> [Wires_Cables_Formulation_Menu]{
+        return wc_formulation_details_type_cw_09_shriram
+    }
+    func show_type_cw04_shriram() -> [Wires_Cables_Formulation_Menu]{
+        return wc_formulation_details_type_cw_04_shriram
+    }
+    func show_type_cw03_shriram() -> [Wires_Cables_Formulation_Menu]{
+        return wc_formulation_details_type_cw_03_shriram
+    }
+    //////////////////////Functions for calling respective Type-B Formulations/////////////
+    func show_type_b()->[Wires_Cables_Formulation_Menu]{
+        return wc_formulation_details_type_b
+    }
 
 ////////////////Functions for calling respective Type-C type Formulations///////////////////
     func show_type_c_1() -> [Wires_Cables_Formulation_Menu] {
@@ -795,6 +1055,9 @@ class Wires_Cables_Category_MasterData {
     func show_type_frls()->[Wires_Cables_Formulation_Menu]{
         return wc_formulation_details_fr_type_frls
     }
+    func show_type_frlsh_shriram_sfr_16_24()->[Wires_Cables_Formulation_Menu]{
+        return wc_formulations_details_st_mcore_shriram_sfr16
+    }
     ////////////////Functions for calling respective FRLS Sheathing type Formulations///////////////////
     
     func show_type_frls_st()->[Wires_Cables_Formulation_Menu]{
@@ -808,9 +1071,6 @@ class Wires_Cables_Category_MasterData {
     func show_type_tele_comm_gupta_st()->[Wires_Cables_Formulation_Menu]{
         return wc_formulation_details_tele_communication_gupta_st
     }
-    func show_type_b()->[Wires_Cables_Formulation_Menu]{
-        return wc_formulation_details_type_b
-    }
     ////////////////Functions for calling respective NON FR Skin Compound Formulations///////////////////
     
     func show_type_non_fr_hs_skin()->[Wires_Cables_Formulation_Menu]{
@@ -818,6 +1078,15 @@ class Wires_Cables_Category_MasterData {
     }
     func show_type_non_fr_ls_skin()->[Wires_Cables_Formulation_Menu]{
         return wc_formulation_details_non_fr_ls_skin
+    }
+    func show_type_non_fr_cw22_shriram_skin() ->[Wires_Cables_Formulation_Menu]{
+        return wc_formulation_details_skin_cw_22_shriram
+    }
+    func show_type_non_fr_cw23_shriram_skin() ->[Wires_Cables_Formulation_Menu]{
+        return wc_formulation_details_skin_cw_23_shriram
+    }
+    func show_type_non_fr_sa23_shriram_skin() ->[Wires_Cables_Formulation_Menu]{
+        return wc_formulation_details_skin_sa_23_shriram
     }
     ////////////////Functions for calling respective Multicore Sheathing Compound Formulations-Anchor///////////////////
     
@@ -839,9 +1108,22 @@ class Wires_Cables_Category_MasterData {
     func show_type_st_shriram_st_2h()->[Wires_Cables_Formulation_Menu]{
         return wc_formulations_details_st_mcore_shriram_st2h
     }
-    func show_type_st_shriram_sfr_16()->[Wires_Cables_Formulation_Menu]{
-        return wc_formulations_details_st_mcore_shriram_sfr16
+    func show_type_st_shriram_cw_20() ->[Wires_Cables_Formulation_Menu]{
+        return wc_formulations_details_st_mcore_shriram_cw20
     }
+    func show_type_st_shriram_cw_01() ->[Wires_Cables_Formulation_Menu]{
+        return wc_formulations_details_st_mcore_shriram_cw01
+    }
+    func show_type_st_shriram_cw_02() ->[Wires_Cables_Formulation_Menu]{
+        return wc_formulations_details_st_mcore_shriram_cw02
+    }
+    func show_type_st_shriram_cw_27() ->[Wires_Cables_Formulation_Menu]{
+        return wc_formulations_details_st_mcore_shriram_cw27
+    }
+    func show_type_st_shriram_cw_40() ->[Wires_Cables_Formulation_Menu]{
+        return wc_formulations_details_st_mcore_shriram_cw40
+    }
+   
     ///////////////Functions for calling respective powercable compound formulations -Shriram Axiall//////////////
     func show_type_pc_16()->[Wires_Cables_Formulation_Menu]{
         return wc_formulation_details_pc_16

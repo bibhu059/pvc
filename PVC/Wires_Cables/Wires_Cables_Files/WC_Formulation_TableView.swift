@@ -24,6 +24,7 @@ class WC_Formulation_TableView: UIViewController ,UITableViewDelegate,UITableVie
     {
         wires_cables_formulation_menu = Wires_Cables_Category_MasterData.instance.getFormulaiton_Details(forWires_Cables_Grades: wires_cables_details_menu.grade_name, forWires_Cables_Version: wires_cables_details_menu.version_name)
             navigationItem.title = wires_cables_details_menu.grade_name
+            self.navigationItem.backBarButtonItem?.title = ""
     }
 
     func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {

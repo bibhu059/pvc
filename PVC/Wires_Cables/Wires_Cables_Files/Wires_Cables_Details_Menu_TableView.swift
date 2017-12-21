@@ -24,6 +24,7 @@ class Wires_Cables_Details_Menu_TableView: UIViewController ,UITableViewDataSour
     func initWires_Cables_Details_Menu(itemlist_menu_categories: Wires_Cables_Category_List_Menu) {
         wires_cables_details_menu = Wires_Cables_Category_MasterData.instance.getItemlist_Menu_Categories_Details(forWires_Cables_Category_List_Menu_Name: itemlist_menu_categories.title)
             navigationItem.title = itemlist_menu_categories.title
+            self.navigationItem.backBarButtonItem?.title = ""
     }
     
     func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
@@ -54,6 +55,8 @@ class Wires_Cables_Details_Menu_TableView: UIViewController ,UITableViewDataSour
         case "A":
             formulation_menu =
                 Wires_Cables_Category_MasterData.instance.getformulations_type_a()[indexPath.row]
+        case "B":
+            formulation_menu = Wires_Cables_Category_MasterData.instance.getformulations_type_b()[indexPath.row]
         case "C":
             formulation_menu =
                 Wires_Cables_Category_MasterData.instance.getformulations_type_c()[indexPath.row]
