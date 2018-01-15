@@ -1,0 +1,6 @@
+framework module Pods_PVC {
+  umbrella header "Pods-PVC-umbrella.h"
+
+  export *
+  module * { export * }
+}

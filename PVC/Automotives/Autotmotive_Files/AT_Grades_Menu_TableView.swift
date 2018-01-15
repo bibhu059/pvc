@@ -13,16 +13,18 @@ class AT_Grades_Menu_TableView: UIViewController,UITableViewDataSource,UITableVi
     @IBOutlet weak var Automotives_Grades_Menu_TableView: UITableView!
     private(set) public var automotives_grades_list_menu = [Automotives_Grades_List_Menu]()
     
-    override func viewDidLoad() {
+    override func viewDidLoad()
+    {
         super.viewDidLoad()
         Automotives_Grades_Menu_TableView.delegate = self
         Automotives_Grades_Menu_TableView.dataSource = self
 
     }
     
-    func initAutomotives_Grades_List_Menu(itemlist_menu_categories: Automotives_Category_List_Menu) {
-        automotives_grades_list_menu = Automotive_Grades_Category_MasterData.instance.getGradeNames_Menu_Categories(forAutomotive_Menu_ItemNames: itemlist_menu_categories.title)
-        navigationItem.title = itemlist_menu_categories.title
+    func initAutomotives_Grades_List_Menu(automotive_itemlist_menu_categories: Automotives_Category_List_Menu)
+    {
+        automotives_grades_list_menu = Automotive_Grades_Category_MasterData.instance.getGradeNames_Menu_Categories(forAutomotive_Menu_ItemNames: automotive_itemlist_menu_categories.title)
+        navigationItem.title = automotive_itemlist_menu_categories.title
     }
     
     func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {

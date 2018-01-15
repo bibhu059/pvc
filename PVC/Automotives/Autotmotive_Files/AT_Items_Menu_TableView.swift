@@ -41,7 +41,7 @@ class AT_Items_Menu_TableView: UIViewController,UITableViewDelegate,UITableViewD
     {
         if let at_grades_menu_tableview = segue.destination as? AT_Grades_Menu_TableView
         {
-            at_grades_menu_tableview.initAutomotives_Grades_List_Menu(itemlist_menu_categories: sender as! Automotives_Category_List_Menu)
+            at_grades_menu_tableview.initAutomotives_Grades_List_Menu(automotive_itemlist_menu_categories: sender as! Automotives_Category_List_Menu)
         }
     }
 

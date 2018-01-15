@@ -10,8 +10,6 @@ import Foundation
 struct Density_Price_Calculation
 {
     private(set) public var chemical_name : String
-
-    
     init(chemical_name:String)
     {
         self.chemical_name = chemical_name

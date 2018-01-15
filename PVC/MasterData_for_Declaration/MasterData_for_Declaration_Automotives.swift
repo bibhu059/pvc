@@ -11,7 +11,7 @@ import Foundation
 class Automotive_Grades_Category_MasterData {
     static let instance = Automotive_Grades_Category_MasterData()
     //Starting of Content Details
-    private let itemlist_menu_categories = [
+    private let automotive_itemlist_menu_categories = [
         Automotives_Category_List_Menu(title: "Compound for HSI (Hyundai)"),
         Automotives_Category_List_Menu(title: "Compound for Toyota"),
         Automotives_Category_List_Menu(title: "Compound for Avastha Industry"),
@@ -28,7 +28,7 @@ class Automotive_Grades_Category_MasterData {
     
     //This function is used to shows the types of Automotive compound in the table view
     func getItemlist_Menu_Categories() -> [Automotives_Category_List_Menu] {
-        return itemlist_menu_categories
+        return automotive_itemlist_menu_categories
     }
     //This function is used to shows the grades of Automotive compound in the table view
     func getGradeNames_Menu_Categories(forAutomotive_Menu_ItemNames title : String)->[Automotives_Grades_List_Menu]{
