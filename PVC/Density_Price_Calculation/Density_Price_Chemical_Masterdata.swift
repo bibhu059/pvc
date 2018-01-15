@@ -37,7 +37,5 @@ class Density_Price_Chemicals_MasterData {
     func getChemical_Names() -> [Density_Price_Calculation] {
         return chemical_names
     }
-    func density_price_calculation(){
-        
-    }
+   
 }

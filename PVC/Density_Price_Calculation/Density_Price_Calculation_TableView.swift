@@ -49,14 +49,10 @@ class Density_Price_Calculation_TableView: UIViewController , UITableViewDelegat
     }
     @IBAction func btn_pressed(_ sender: UIButton) {
  
-        ArrayOfCell.forEach { (cell) in
-            phreditText.append(cell.phreditText.text!)
-            densityeditText.append(cell.densityeditText.text!)
-            priceeditText.append(cell.priceeditText.text!)
-
+   
         }
         
     }
-}
+
 
 
