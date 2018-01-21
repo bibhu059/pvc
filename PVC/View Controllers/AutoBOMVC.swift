@@ -8,14 +8,6 @@
 
 import UIKit
 
-extension Double {
-    
-    func roundToPlaces(places: Int) -> Double {
-        let divisor = pow(10.0, Double(3))
-        return (self * divisor).rounded() / divisor
-    }
-    
-}
 
 class AutoBOMVC: UIViewController {
     
@@ -98,64 +90,72 @@ class AutoBOMVC: UIViewController {
         let chem_15 = Double (chemical_15.text!)
         let chem_16 = Double (chemical_16.text!)
         
-        if chemical_1.text!.isEmpty && chemical_2.text!.isEmpty && chemical_3.text!.isEmpty && chemical_4.text!.isEmpty && chemical_5.text!.isEmpty && chemical_6.text!.isEmpty  && chemical_7.text!.isEmpty && chemical_8.text!.isEmpty && chemical_9.text!.isEmpty && chemical_10.text!.isEmpty && chemical_11.text!.isEmpty && chemical_12.text!.isEmpty && chemical_13.text!.isEmpty && chemical_14.text!.isEmpty && chemical_15.text!.isEmpty && chemical_16.text!.isEmpty
+        if chemical_1.text!.isEmpty || chemical_2.text!.isEmpty || chemical_3.text!.isEmpty || chemical_4.text!.isEmpty || chemical_5.text!.isEmpty || chemical_6.text!.isEmpty  || chemical_7.text!.isEmpty || chemical_8.text!.isEmpty || chemical_9.text!.isEmpty || chemical_10.text!.isEmpty || chemical_11.text!.isEmpty || chemical_12.text!.isEmpty || chemical_13.text!.isEmpty || chemical_14.text!.isEmpty || chemical_15.text!.isEmpty || chemical_16.text!.isEmpty
         {
-              Unknown_Formulation_Batch_Size.text = "#Error"
-              Unknown_Formulation_Batch_Size.textColor = #colorLiteral(red: 0.9999960065, green: 1, blue: 1, alpha: 1)
+            
+            // create the alert
+            let alert = UIAlertController(title: "Invalid Input", message: "Enter 0 for unavailable item", preferredStyle: UIAlertControllerStyle.alert)
+            
+            // add an action (button)
+            alert.addAction(UIAlertAction(title: "OK", style: UIAlertActionStyle.default, handler: nil))
+            
+            // show the alert
+            self.present(alert, animated: true, completion: nil)
         
         }
         else
         {
             
             let total_unknown_batch_size = Double (chem_1! + chem_2! + chem_3! + chem_4! + chem_5! + chem_6! + chem_7! + chem_8! + chem_9! + chem_10! + chem_11! + chem_12! + chem_13! + chem_14! + chem_15! + chem_16!)
-            Unknown_Formulation_Batch_Size.text = "\(total_unknown_batch_size)"
+            Unknown_Formulation_Batch_Size.text = "\(Double(total_unknown_batch_size))"
             Unknown_Formulation_Batch_Size.textAlignment = .center
-            let default_resin_value_in_bom = 100
+            let default_resin_value_in_bom = Double (100)
             
             Total_RM_Contribution.isHidden = false
             Actual_Batch_Size.isHidden = false
             Unknown_Formulation_Batch_Size.isHidden = false
             
-            cont_1.text = "\(Double(chem_1! / total_unknown_batch_size))"
-            cont_2.text = "\(Double(chem_2! / total_unknown_batch_size))"
-            cont_3.text = "\(Double(chem_3! / total_unknown_batch_size))"
-            cont_4.text = "\(Double(chem_4! / total_unknown_batch_size))"
-            cont_5.text = "\(Double(chem_5! / total_unknown_batch_size))"
-            cont_6.text = "\(Double(chem_6! / total_unknown_batch_size))"
-            cont_7.text = "\(Double(chem_7! / total_unknown_batch_size))"
-            cont_8.text = "\(Double(chem_8! / total_unknown_batch_size))"
-            cont_9.text = "\(Double(chem_9! / total_unknown_batch_size))"
-            cont_10.text = "\(Double(chem_10! / total_unknown_batch_size))"
-            cont_11.text = "\(Double(chem_11! / total_unknown_batch_size))"
-            cont_12.text = "\(Double(chem_12! / total_unknown_batch_size))"
-            cont_13.text = "\(Double(chem_13! / total_unknown_batch_size))"
-            cont_14.text = "\(Double(chem_14! / total_unknown_batch_size))"
-            cont_15.text = "\(Double(chem_15! / total_unknown_batch_size))"
-            cont_16.text = "\(Double(chem_16! / total_unknown_batch_size))"
-            let rm_contribution_percentage = Double (cont_1.text! + cont_2.text! + cont_3.text! + cont_4.text! + cont_5.text! + cont_6.text! + cont_7.text! +
-                cont_8.text! + cont_9.text! + cont_10.text! + cont_11.text! + cont_12.text! + cont_13.text! + cont_14.text! + cont_15.text! + cont_16.text!)
-            Total_RM_Contribution.text = "\(rm_contribution_percentage)"
+            cont_1.text = String (format : "%.2f",(Double(chem_1! / total_unknown_batch_size)))
+            cont_2.text = String (format : "%.2f",(Double(chem_2! / total_unknown_batch_size)))
+            cont_3.text = String (format : "%.2f",(Double(chem_3! / total_unknown_batch_size)))
+            cont_4.text = String (format : "%.2f",(Double(chem_4! / total_unknown_batch_size)))
+            cont_5.text = String (format : "%.2f",(Double(chem_5! / total_unknown_batch_size)))
+            cont_6.text = String (format : "%.2f",(Double(chem_6! / total_unknown_batch_size)))
+            cont_7.text = String (format : "%.2f",(Double(chem_7! / total_unknown_batch_size)))
+            cont_8.text = String (format : "%.2f",(Double(chem_8! / total_unknown_batch_size)))
+            cont_9.text = String (format : "%.2f",(Double(chem_9! / total_unknown_batch_size)))
+            cont_10.text = String (format : "%.2f",(Double(chem_10! / total_unknown_batch_size)))
+            cont_11.text = String (format : "%.2f",(Double(chem_11! / total_unknown_batch_size)))
+            cont_12.text = String (format : "%.2f",(Double(chem_12! / total_unknown_batch_size)))
+            cont_13.text = String (format : "%.2f",(Double(chem_13! / total_unknown_batch_size)))
+            cont_14.text = String (format : "%.2f",(Double(chem_14! / total_unknown_batch_size)))
+            cont_15.text = String (format : "%.2f",(Double(chem_15! / total_unknown_batch_size)))
+            cont_16.text = String (format : "%.2f",(Double(chem_16! / total_unknown_batch_size)))
+            
+            let total_rm_contribution = Double((chem_1! / total_unknown_batch_size)+(chem_2! / total_unknown_batch_size)+(chem_3! / total_unknown_batch_size)+(chem_4! / total_unknown_batch_size)+(chem_5! / total_unknown_batch_size)+(chem_6! / total_unknown_batch_size)+(chem_7! / total_unknown_batch_size)+(chem_8! / total_unknown_batch_size)+(chem_9! / total_unknown_batch_size)+(chem_10! / total_unknown_batch_size)+(chem_11! / total_unknown_batch_size)+(chem_12! / total_unknown_batch_size)+(chem_13! / total_unknown_batch_size)+(chem_14! / total_unknown_batch_size)+(chem_15! / total_unknown_batch_size)+(chem_16! / total_unknown_batch_size))
+            
+            Total_RM_Contribution.text = String (format : "%.2f",(Double(total_rm_contribution)))
             Total_RM_Contribution.textAlignment = .center
             
-            let actual_batch_size = Double (100 / Double (chem_1! / total_unknown_batch_size))
-            Actual_Batch_Size.text = "\(Double(actual_batch_size))"
+            let actual_batch_size = Double (default_resin_value_in_bom / (chem_1! / total_unknown_batch_size) )
+            Actual_Batch_Size.text = String (format : "%.3f",(Double(actual_batch_size)))
             Actual_Batch_Size.textAlignment = .center
             phr_1.text = "\(default_resin_value_in_bom)"
-            phr_2.text = "\(Double (chem_2! / total_unknown_batch_size) * actual_batch_size)"
-            phr_3.text = "\(Double (chem_3! / total_unknown_batch_size) * actual_batch_size)"
-            phr_4.text = "\(Double (chem_4! / total_unknown_batch_size) * actual_batch_size)"
-            phr_5.text = "\(Double (chem_5! / total_unknown_batch_size) * actual_batch_size)"
-            phr_6.text = "\(Double (chem_6! / total_unknown_batch_size) * actual_batch_size)"
-            phr_7.text = "\(Double (chem_7! / total_unknown_batch_size) * actual_batch_size)"
-            phr_8.text = "\(Double (chem_8! / total_unknown_batch_size) * actual_batch_size)"
-            phr_9.text = "\(Double (chem_9! / total_unknown_batch_size) * actual_batch_size)"
-            phr_10.text = "\(Double (chem_10! / total_unknown_batch_size) * actual_batch_size)"
-            phr_11.text = "\(Double (chem_11! / total_unknown_batch_size) * actual_batch_size)"
-            phr_12.text = "\(Double (chem_12! / total_unknown_batch_size) * actual_batch_size)"
-            phr_13.text = "\(Double (chem_13! / total_unknown_batch_size) * actual_batch_size)"
-            phr_14.text = "\(Double (chem_14! / total_unknown_batch_size) * actual_batch_size)"
-            phr_15.text = "\(Double (chem_15! / total_unknown_batch_size) * actual_batch_size)"
-            phr_16.text = "\(Double (chem_16! / total_unknown_batch_size) * actual_batch_size)"
+            phr_2.text = String (format : "%.3f",(Double ((chem_2! / total_unknown_batch_size) * actual_batch_size)))
+            phr_3.text = String (format : "%.3f",(Double((chem_3! / total_unknown_batch_size) * actual_batch_size)))
+            phr_4.text = String (format : "%.3f",(Double((chem_4! / total_unknown_batch_size) * actual_batch_size)))
+            phr_5.text = String (format : "%.3f",(Double((chem_5! / total_unknown_batch_size) * actual_batch_size)))
+            phr_6.text = String (format : "%.3f",(Double((chem_6! / total_unknown_batch_size) * actual_batch_size)))
+            phr_7.text = String (format : "%.3f",(Double((chem_7! / total_unknown_batch_size) * actual_batch_size)))
+            phr_8.text = String (format : "%.3f",(Double((chem_8! / total_unknown_batch_size) * actual_batch_size)))
+            phr_9.text = String (format : "%.3f",(Double((chem_9! / total_unknown_batch_size) * actual_batch_size)))
+            phr_10.text = String (format : "%.3f",(Double((chem_10! / total_unknown_batch_size) * actual_batch_size)))
+            phr_11.text = String (format : "%.3f",(Double((chem_11! / total_unknown_batch_size) * actual_batch_size)))
+            phr_12.text = String (format : "%.3f",(Double((chem_12! / total_unknown_batch_size) * actual_batch_size)))
+            phr_13.text = String (format : "%.3f",(Double((chem_13! / total_unknown_batch_size) * actual_batch_size)))
+            phr_14.text = String (format : "%.3f",(Double((chem_14! / total_unknown_batch_size) * actual_batch_size)))
+            phr_15.text = String (format : "%.3f",(Double((chem_15! / total_unknown_batch_size) * actual_batch_size)))
+            phr_16.text = String (format : "%.3f",(Double((chem_16! / total_unknown_batch_size) * actual_batch_size)))
             
         }
 

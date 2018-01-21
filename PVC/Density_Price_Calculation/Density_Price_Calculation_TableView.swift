@@ -13,9 +13,9 @@ class Density_Price_Calculation_TableView: UIViewController , UITableViewDelegat
     
     @IBOutlet weak var Density_Price_Calculation_TableView: UITableView!
     
-
-    @IBOutlet weak var gravity: UILabel!
-    @IBOutlet weak var price: UILabel!
+    @IBOutlet weak var Gravity: UILabel!
+    @IBOutlet weak var Price: UILabel!
+    
     
   
     var phreditText = [String]()
@@ -32,22 +32,40 @@ class Density_Price_Calculation_TableView: UIViewController , UITableViewDelegat
     func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
         return Density_Price_Chemicals_MasterData.instance.getChemical_Names().count
     }
-    
+  
+
     func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
-        if let cell = tableView.dequeueReusableCell(withIdentifier: "density_price_calculation_cell") as? Density_Price_Calculation_TableViewCell
-        {
+        let cell : Density_Price_Calculation_TableViewCell = tableView.dequeueReusableCell(withIdentifier: "density_price_calculation_cell", for: indexPath) as! Density_Price_Calculation_TableViewCell
+        
             let chemical_names = Density_Price_Chemicals_MasterData.instance.getChemical_Names()[indexPath.row]
             cell.updateViews(chemical_names: chemical_names)
             ArrayOfCell.append(cell)
-            
             return cell
-        }
-        else
-        {
-            return Density_Price_Calculation_TableViewCell()
-        }
+       
     }
+    
     @IBAction func btn_pressed(_ sender: UIButton) {
+        var totalSize=0.00, gravity=0.0,price=0.0
+        
+        
+        for cell in ArrayOfCell
+        {
+            totalSize=totalSize + (Double(cell.phreditText.text ?? "") ?? 0)
+            let tempPhr=Double(cell.phreditText.text ?? "") ?? 0
+            let tempDen=Double(cell.densityeditText.text ?? "") ?? 0
+            let tempPrice=Double(cell.priceeditText.text ?? "") ?? 0
+            if(tempPhr != 0 && tempDen != 0)
+            {
+                gravity=gravity + tempPhr/tempDen
+            }
+            
+            price = price + (tempPhr*tempPrice)
+            
+        }
+        Gravity.text = String (format : "%.3f",(Double(totalSize/gravity)))
+        Price.text = String (format : "%.3f",(Double(price/totalSize)))
+        
+        
  
    
         }

@@ -955,8 +955,8 @@
                     </view>
                     <connections>
                         <outlet property="Density_Price_Calculation_TableView" destination="SdF-95-W1r" id="4hE-qi-Mnt"/>
-                        <outlet property="gravity" destination="Huk-40-VVk" id="cCc-xF-U5s"/>
-                        <outlet property="price" destination="UPq-1p-Rma" id="Jwb-wP-yfT"/>
+                        <outlet property="Gravity" destination="Huk-40-VVk" id="Fdb-um-CQd"/>
+                        <outlet property="Price" destination="UPq-1p-Rma" id="Kat-cn-oU8"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="NGs-KJ-0Em" userLabel="First Responder" sceneMemberID="firstResponder"/>
