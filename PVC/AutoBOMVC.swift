@@ -169,26 +169,7 @@ class AutoBOMVC: UIViewController {
         Unknown_Formulation_Batch_Size.isHidden = true
         
     }
-    override func touchesBegan(_ touches: Set<UITouch>, with event: UIEvent?)
-    {
-        // Dismiss the keyboard when the view is tapped on
-            chemical_1.resignFirstResponder()
-            chemical_2.resignFirstResponder()
-            chemical_3.resignFirstResponder()
-            chemical_4.resignFirstResponder()
-            chemical_5.resignFirstResponder()
-            chemical_6.resignFirstResponder()
-            chemical_7.resignFirstResponder()
-            chemical_8.resignFirstResponder()
-            chemical_9.resignFirstResponder()
-            chemical_10.resignFirstResponder()
-            chemical_11.resignFirstResponder()
-            chemical_12.resignFirstResponder()
-            chemical_13.resignFirstResponder()
-            chemical_14.resignFirstResponder()
-            chemical_15.resignFirstResponder()
-            chemical_16.resignFirstResponder()
-    }
+
 
 
 

@@ -7,9 +7,12 @@
 //
 
 import Foundation
-struct Density_Price_Calculation
+class Density_Price_Calculation
 {
     private(set) public var chemical_name : String
+    open var PHR : String?
+    public var Density : String?
+    public var Price : String?
     init(chemical_name:String)
     {
         self.chemical_name = chemical_name

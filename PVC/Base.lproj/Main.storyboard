@@ -77,7 +77,7 @@
                                             <constraint firstAttribute="height" constant="50" id="Goe-P7-DmP"/>
                                         </constraints>
                                         <fontDescription key="fontDescription" name="Avenir-Book" family="Avenir" pointSize="20"/>
-                                        <state key="normal" title="Masterbatch Compounds">
+                                        <state key="normal" title="Footwear Compounds">
                                             <color key="titleColor" red="0.99999600649999998" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                         </state>
                                     </button>
@@ -88,7 +88,7 @@
                                             <constraint firstAttribute="height" constant="50" id="daP-hb-gg5"/>
                                         </constraints>
                                         <fontDescription key="fontDescription" name="Avenir-Book" family="Avenir" pointSize="20"/>
-                                        <state key="normal" title="Footwear Compounds">
+                                        <state key="normal" title="Compounding Tricks">
                                             <color key="titleColor" red="0.99999600649999998" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                         </state>
                                     </button>
@@ -825,7 +825,7 @@
                                                     <fontDescription key="fontDescription" name="AvenirNext-Regular" family="Avenir Next" pointSize="18"/>
                                                     <textInputTraits key="textInputTraits" keyboardType="decimalPad"/>
                                                 </textField>
-                                                <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="100" textAlignment="center" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="b9u-NJ-fSN">
+                                                <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="100" textAlignment="center" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="b9u-NJ-fSN" customClass="TextFiledText" customModule="PVC" customModuleProvider="target">
                                                     <rect key="frame" x="140" y="5" width="70" height="35"/>
                                                     <constraints>
                                                         <constraint firstAttribute="width" constant="70" id="cT8-bU-f6R"/>
@@ -1025,10 +1025,10 @@
             </objects>
             <point key="canvasLocation" x="1033" y="-1670"/>
         </scene>
-        <!--AUTOMOTIVES COMPOUNDS-->
+        <!--Items Menu Table View-->
         <scene sceneID="77P-6d-Hv8">
             <objects>
-                <viewController title="AUTOMOTIVES COMPOUNDS" id="YUs-sF-o2m" customClass="AT_Items_Menu_TableView" customModule="PVC" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController id="YUs-sF-o2m" customClass="AT_Items_Menu_TableView" customModule="PVC" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="V6c-N3-bDi">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -1088,10 +1088,10 @@
             </objects>
             <point key="canvasLocation" x="1034" y="-965"/>
         </scene>
-        <!--Automotives Details Grades-->
+        <!--Grades Menu Table View-->
         <scene sceneID="nF7-aL-lRl">
             <objects>
-                <viewController title="Automotives Details Grades" id="JSw-IR-rxF" customClass="AT_Grades_Menu_TableView" customModule="PVC" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController id="JSw-IR-rxF" customClass="AT_Grades_Menu_TableView" customModule="PVC" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="jks-iO-HrH">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -1150,10 +1150,10 @@
             </objects>
             <point key="canvasLocation" x="1818" y="-966"/>
         </scene>
-        <!--Formulation Details-->
+        <!--Formulation Table View-->
         <scene sceneID="0Y7-BX-73a">
             <objects>
-                <viewController title="Formulation Details" id="V7U-yi-6nq" customClass="AT_Formulation_TableView" customModule="PVC" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController id="V7U-yi-6nq" customClass="AT_Formulation_TableView" customModule="PVC" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="v4V-9H-iey">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -1169,7 +1169,7 @@
                                             <rect key="frame" x="0.0" y="0.0" width="375" height="43.5"/>
                                             <autoresizingMask key="autoresizingMask"/>
                                             <subviews>
-                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Chemical Names" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontForContentSizeCategory="YES" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Hkm-B3-who">
+                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Chemical Names" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Hkm-B3-who">
                                                     <rect key="frame" x="15" y="11" width="132" height="22"/>
                                                     <fontDescription key="fontDescription" name="AvenirNext-Regular" family="Avenir Next" pointSize="17"/>
                                                     <nil key="textColor"/>
@@ -1220,10 +1220,10 @@
             </objects>
             <point key="canvasLocation" x="2606" y="-967"/>
         </scene>
-        <!--Grade Names-->
+        <!--Wires Cables Details Menu Table View-->
         <scene sceneID="Lcy-3M-r35">
             <objects>
-                <viewController title="Grade Names" id="J2h-nT-R7U" customClass="Wires_Cables_Details_Menu_TableView" customModule="PVC" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController id="J2h-nT-R7U" customClass="Wires_Cables_Details_Menu_TableView" customModule="PVC" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="jeH-Hg-xfW">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -1296,10 +1296,10 @@
             </objects>
             <point key="canvasLocation" x="1794" y="-1670"/>
         </scene>
-        <!--Formulation Details-->
+        <!--Formulation Table View-->
         <scene sceneID="jO1-M8-YPY">
             <objects>
-                <viewController title="Formulation Details" id="3ju-PR-FES" customClass="WC_Formulation_TableView" customModule="PVC" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController id="3ju-PR-FES" customClass="WC_Formulation_TableView" customModule="PVC" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="ORO-IO-Y42">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>

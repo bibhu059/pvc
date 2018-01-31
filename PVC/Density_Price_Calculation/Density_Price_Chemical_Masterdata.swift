@@ -13,7 +13,7 @@ class Density_Price_Chemicals_MasterData {
     //Starting of Content Details
     private let chemical_names = [
         Density_Price_Calculation(chemical_name: "PVC Resin"),
-        Density_Price_Calculation(chemical_name: "CaCO₃-Hind"),
+        Density_Price_Calculation(chemical_name: "CaCO₃ Filler"),
         Density_Price_Calculation(chemical_name: "Calcined Clay"),
         Density_Price_Calculation(chemical_name: "DOP"),
         Density_Price_Calculation(chemical_name: "CPW"),
