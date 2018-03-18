@@ -7,6 +7,10 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		3F0284132059988000684DDA /* Cell_Components_Model.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F0284122059988000684DDA /* Cell_Components_Model.swift */; };
+		3F028415205998BB00684DDA /* Chemical_Database.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F028414205998BB00684DDA /* Chemical_Database.swift */; };
+		3F028417205999DA00684DDA /* TableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F028416205999DA00684DDA /* TableViewCell.swift */; };
+		3F02841920599A1800684DDA /* TableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F02841820599A1800684DDA /* TableViewController.swift */; };
 		3F14D68B1F9C9CF000DA595B /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F14D68A1F9C9CF000DA595B /* AppDelegate.swift */; };
 		3F14D68D1F9C9CF000DA595B /* MainVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F14D68C1F9C9CF000DA595B /* MainVC.swift */; };
 		3F14D6901F9C9CF000DA595B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3F14D68E1F9C9CF000DA595B /* Main.storyboard */; };
@@ -24,6 +28,8 @@
 		3F3087362007E00E00730565 /* Density_Price_Chemical_Masterdata.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F3087352007E00E00730565 /* Density_Price_Chemical_Masterdata.swift */; };
 		3F39BF161FDCDE0A00529532 /* MasterData_for_Declaration_Automotives.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F39BF151FDCDE0A00529532 /* MasterData_for_Declaration_Automotives.swift */; };
 		3F39BF1E1FDCDE9B00529532 /* MasterData_for_Declaration_Footwear.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F39BF1D1FDCDE9B00529532 /* MasterData_for_Declaration_Footwear.swift */; };
+		3F57B3822024D88B00270F90 /* tm_sapl.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 3F57B3812024D88B00270F90 /* tm_sapl.pdf */; };
+		3F57B3842024D9BC00270F90 /* RM_TestMethods_ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F57B3832024D9BC00270F90 /* RM_TestMethods_ViewController.swift */; };
 		3F7B16521FDCE0DD006357E5 /* Automotives_Category_List_Menu.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F7B16511FDCE0DD006357E5 /* Automotives_Category_List_Menu.swift */; };
 		3F7B16581FDCE7C8006357E5 /* Automotives_Menu_Cell_IdentifierTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F7B16571FDCE7C8006357E5 /* Automotives_Menu_Cell_IdentifierTableViewCell.swift */; };
 		3F7B165A1FDCE883006357E5 /* AT_Items_Menu_TableView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F7B16591FDCE883006357E5 /* AT_Items_Menu_TableView.swift */; };
@@ -34,7 +40,6 @@
 		3F7B16641FDCFE72006357E5 /* Automotives_Forumulation_TableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F7B16631FDCFE72006357E5 /* Automotives_Forumulation_TableViewCell.swift */; };
 		3F7B16661FDCFE99006357E5 /* Automotives_Formulation_Menu.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F7B16651FDCFE99006357E5 /* Automotives_Formulation_Menu.swift */; };
 		3FB9A3C21FEF7FF200241226 /* TextFiledText.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FB9A3C11FEF7FF200241226 /* TextFiledText.swift */; };
-		3FB9A3C41FEF87B700241226 /* AutoBOMVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FB9A3C31FEF87B700241226 /* AutoBOMVC.swift */; };
 		3FC24A2E1F9E23990067836D /* Wires_Cables_Menu_Details_Cell_IdentifierTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FC24A2D1F9E23990067836D /* Wires_Cables_Menu_Details_Cell_IdentifierTableViewCell.swift */; };
 		3FC24A301F9E26480067836D /* Wires_Cables_Details_Menu.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FC24A2F1F9E26480067836D /* Wires_Cables_Details_Menu.swift */; };
 		3FC24A321F9E2AD10067836D /* Wires_Cables_Details_Menu_TableView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FC24A311F9E2AD10067836D /* Wires_Cables_Details_Menu_TableView.swift */; };
@@ -49,6 +54,10 @@
 
 /* Begin PBXFileReference section */
 		0181E3A2F301CEB0C3C47612 /* Pods-PVC.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PVC.release.xcconfig"; path = "Pods/Target Support Files/Pods-PVC/Pods-PVC.release.xcconfig"; sourceTree = "<group>"; };
+		3F0284122059988000684DDA /* Cell_Components_Model.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Cell_Components_Model.swift; sourceTree = "<group>"; };
+		3F028414205998BB00684DDA /* Chemical_Database.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Chemical_Database.swift; sourceTree = "<group>"; };
+		3F028416205999DA00684DDA /* TableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TableViewCell.swift; sourceTree = "<group>"; };
+		3F02841820599A1800684DDA /* TableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TableViewController.swift; sourceTree = "<group>"; };
 		3F14D6871F9C9CF000DA595B /* PVC.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PVC.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		3F14D68A1F9C9CF000DA595B /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		3F14D68C1F9C9CF000DA595B /* MainVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainVC.swift; sourceTree = "<group>"; };
@@ -68,6 +77,8 @@
 		3F3087352007E00E00730565 /* Density_Price_Chemical_Masterdata.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Density_Price_Chemical_Masterdata.swift; sourceTree = "<group>"; };
 		3F39BF151FDCDE0A00529532 /* MasterData_for_Declaration_Automotives.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MasterData_for_Declaration_Automotives.swift; sourceTree = "<group>"; };
 		3F39BF1D1FDCDE9B00529532 /* MasterData_for_Declaration_Footwear.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MasterData_for_Declaration_Footwear.swift; sourceTree = "<group>"; };
+		3F57B3812024D88B00270F90 /* tm_sapl.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = tm_sapl.pdf; sourceTree = "<group>"; };
+		3F57B3832024D9BC00270F90 /* RM_TestMethods_ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RM_TestMethods_ViewController.swift; sourceTree = "<group>"; };
 		3F7B16511FDCE0DD006357E5 /* Automotives_Category_List_Menu.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Automotives_Category_List_Menu.swift; sourceTree = "<group>"; };
 		3F7B16571FDCE7C8006357E5 /* Automotives_Menu_Cell_IdentifierTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Automotives_Menu_Cell_IdentifierTableViewCell.swift; sourceTree = "<group>"; };
 		3F7B16591FDCE883006357E5 /* AT_Items_Menu_TableView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AT_Items_Menu_TableView.swift; sourceTree = "<group>"; };
@@ -78,7 +89,6 @@
 		3F7B16631FDCFE72006357E5 /* Automotives_Forumulation_TableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Automotives_Forumulation_TableViewCell.swift; sourceTree = "<group>"; };
 		3F7B16651FDCFE99006357E5 /* Automotives_Formulation_Menu.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Automotives_Formulation_Menu.swift; sourceTree = "<group>"; };
 		3FB9A3C11FEF7FF200241226 /* TextFiledText.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TextFiledText.swift; sourceTree = "<group>"; };
-		3FB9A3C31FEF87B700241226 /* AutoBOMVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AutoBOMVC.swift; sourceTree = "<group>"; };
 		3FC24A2D1F9E23990067836D /* Wires_Cables_Menu_Details_Cell_IdentifierTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Wires_Cables_Menu_Details_Cell_IdentifierTableViewCell.swift; sourceTree = "<group>"; };
 		3FC24A2F1F9E26480067836D /* Wires_Cables_Details_Menu.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Wires_Cables_Details_Menu.swift; sourceTree = "<group>"; };
 		3FC24A311F9E2AD10067836D /* Wires_Cables_Details_Menu_TableView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Wires_Cables_Details_Menu_TableView.swift; sourceTree = "<group>"; };
@@ -113,6 +123,17 @@
 			name = Pods;
 			sourceTree = "<group>";
 		};
+		3F0284112059966F00684DDA /* Auto_BOM_Calculation */ = {
+			isa = PBXGroup;
+			children = (
+				3F0284122059988000684DDA /* Cell_Components_Model.swift */,
+				3F028414205998BB00684DDA /* Chemical_Database.swift */,
+				3F028416205999DA00684DDA /* TableViewCell.swift */,
+				3F02841820599A1800684DDA /* TableViewController.swift */,
+			);
+			path = Auto_BOM_Calculation;
+			sourceTree = "<group>";
+		};
 		3F14D67E1F9C9CF000DA595B = {
 			isa = PBXGroup;
 			children = (
@@ -139,7 +160,7 @@
 				3FD727D51FDC269F0071DAF7 /* Medicals */,
 				3F39BF201FDCDEBE00529532 /* Footwear */,
 				3FD727D61FDC26A60071DAF7 /* Compounding Tricks */,
-				3FB9A3C31FEF87B700241226 /* AutoBOMVC.swift */,
+				3F0284112059966F00684DDA /* Auto_BOM_Calculation */,
 				3F3087302007DE8100730565 /* Density_Price_Calculation */,
 				3F9285C52020D81600E58233 /* PVC Compounding Fundamentals */,
 				3F9285C42020D7DA00E58233 /* Finished Goods Testing Methods */,
@@ -251,6 +272,8 @@
 		3F9285C32020D7C100E58233 /* Raw Material Testing Methods */ = {
 			isa = PBXGroup;
 			children = (
+				3F57B3812024D88B00270F90 /* tm_sapl.pdf */,
+				3F57B3832024D9BC00270F90 /* RM_TestMethods_ViewController.swift */,
 			);
 			path = "Raw Material Testing Methods";
 			sourceTree = "<group>";
@@ -433,6 +456,7 @@
 				3F14D6951F9C9CF000DA595B /* LaunchScreen.storyboard in Resources */,
 				3F14D6921F9C9CF000DA595B /* Assets.xcassets in Resources */,
 				3F14D6901F9C9CF000DA595B /* Main.storyboard in Resources */,
+				3F57B3822024D88B00270F90 /* tm_sapl.pdf in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -499,12 +523,15 @@
 				3F3087342007DF6E00730565 /* Density_Price_Calculation_TableViewCell.swift in Sources */,
 				3FC24A321F9E2AD10067836D /* Wires_Cables_Details_Menu_TableView.swift in Sources */,
 				3F39BF1E1FDCDE9B00529532 /* MasterData_for_Declaration_Footwear.swift in Sources */,
+				3F028415205998BB00684DDA /* Chemical_Database.swift in Sources */,
 				3F7B165E1FDCF018006357E5 /* AT_Grades_Menu_TableView.swift in Sources */,
 				3F14D6A61F9CAC0600DA595B /* MasterData_for_Declaration_WC.swift in Sources */,
 				3F7B16621FDCFE40006357E5 /* AT_Formulation_TableView.swift in Sources */,
 				3F14D6A01F9CA93100DA595B /* Wires_Cables_Items_Menu_TableView.swift in Sources */,
+				3F02841920599A1800684DDA /* TableViewController.swift in Sources */,
 				3FD727DB1FDC28570071DAF7 /* Medicals_Category_List_Menu.swift in Sources */,
 				3FC24A301F9E26480067836D /* Wires_Cables_Details_Menu.swift in Sources */,
+				3F0284132059988000684DDA /* Cell_Components_Model.swift in Sources */,
 				3FB9A3C21FEF7FF200241226 /* TextFiledText.swift in Sources */,
 				3F14D68D1F9C9CF000DA595B /* MainVC.swift in Sources */,
 				3F14D6A31F9CAAEE00DA595B /* Wires_Cables_Category_List_Menu.swift in Sources */,
@@ -514,14 +541,15 @@
 				3F14D69D1F9CA7B100DA595B /* BorderButton.swift in Sources */,
 				3F3087322007DEE900730565 /* Density_Price_Calculation_TableView.swift in Sources */,
 				3F7B165C1FDCEF63006357E5 /* Automotives_Grades_List_Menu.swift in Sources */,
+				3F57B3842024D9BC00270F90 /* RM_TestMethods_ViewController.swift in Sources */,
 				3F2D583D1FA24CF900B6D5AF /* Wires_Cables_Formulation_Menu.swift in Sources */,
 				3F7B16601FDCF074006357E5 /* Automotives_Grades_Menu_Cell_IdentifierTableViewCell.swift in Sources */,
 				3F7B16661FDCFE99006357E5 /* Automotives_Formulation_Menu.swift in Sources */,
+				3F028417205999DA00684DDA /* TableViewCell.swift in Sources */,
 				3FD727CE1FDC25400071DAF7 /* MasterData_for_Declaration_Medical.swift in Sources */,
 				3FD727DD1FDC2A0E0071DAF7 /* Medicals_Cell_IdentifierTableViewCell.swift in Sources */,
 				3F14D6A91F9CAE7600DA595B /* Wires_Cables_Menu_Cell_IdentifierTableViewCell.swift in Sources */,
 				3FD727E31FDC4D270071DAF7 /* Medicals_Item_Menu_TableView.swift in Sources */,
-				3FB9A3C41FEF87B700241226 /* AutoBOMVC.swift in Sources */,
 				3FC24A2E1F9E23990067836D /* Wires_Cables_Menu_Details_Cell_IdentifierTableViewCell.swift in Sources */,
 				3FCA59741FA38AF700C82709 /* Wires_Cables_Formulation_TableViewCell.swift in Sources */,
 				3F7B165A1FDCE883006357E5 /* AT_Items_Menu_TableView.swift in Sources */,

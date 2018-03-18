@@ -10,15 +10,13 @@ import UIKit
 
 class TableViewCell: UITableViewCell {
 
-    override func awakeFromNib() {
-        super.awakeFromNib()
-        // Initialization code
-    }
-
-    override func setSelected(_ selected: Bool, animated: Bool) {
-        super.setSelected(selected, animated: animated)
-
-        // Configure the view for the selected state
+    @IBOutlet weak var chemical_names: UILabel!
+    
+    @IBOutlet weak var unknown_batch_details: UITextField!
+    @IBOutlet weak var phr_values: UILabel!
+    
+    func update_Chemical_name_in_tableView_Cell(chemical_names_in_tableViewCell : tableview_elements) {
+        chemical_names.text = chemical_names_in_tableViewCell.chemical_names
     }
 
 }

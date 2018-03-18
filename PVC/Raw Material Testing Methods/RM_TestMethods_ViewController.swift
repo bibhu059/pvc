@@ -7,29 +7,19 @@
 //
 
 import UIKit
+import WebKit
 
 class RM_TestMethods_ViewController: UIViewController {
 
+    @IBOutlet weak var rm_testMethods: WKWebView!
     override func viewDidLoad() {
         super.viewDidLoad()
+        let path = Bundle.main.path(forResource: "tm_sapl", ofType: "pdf")
+        let url = URL(fileURLWithPath: path!)
+        let request = URLRequest(url: url)
+        rm_testMethods.load(request)
 
-        // Do any additional setup after loading the view.
     }
 
-    override func didReceiveMemoryWarning() {
-        super.didReceiveMemoryWarning()
-        // Dispose of any resources that can be recreated.
-    }
-    
-
-    /*
-    // MARK: - Navigation
-
-    // In a storyboard-based application, you will often want to do a little preparation before navigation
-    override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
-        // Get the new view controller using segue.destinationViewController.
-        // Pass the selected object to the new view controller.
-    }
-    */
 
 }

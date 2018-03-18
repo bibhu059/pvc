@@ -7,3 +7,10 @@
 //
 
 import Foundation
+struct tableview_elements {
+    private (set) public var chemical_names : String
+    
+    init (chemical_names : String){
+        self.chemical_names = chemical_names
+    }
+}
