@@ -8,17 +8,15 @@
 
 import UIKit
 
-class SpGravityView: UITableViewCell {
+class ChemicalSpGravityView: UITableViewCell {
 
-    override func awakeFromNib() {
-        super.awakeFromNib()
-        // Initialization code
+    @IBOutlet weak var additiveNames: UILabel!
+    @IBOutlet weak var spGravity: UILabel!
+    
+    func updateChemicalNamesInTableViewCell (chemicalNamesInTableViewCell : ChemicalSpGravityModel )
+    {
+        additiveNames.text = chemicalNamesInTableViewCell.additiveNames
+        spGravity.text = chemicalNamesInTableViewCell.spGravity
     }
-
-    override func setSelected(_ selected: Bool, animated: Bool) {
-        super.setSelected(selected, animated: animated)
-
-        // Configure the view for the selected state
-    }
-
+    
 }

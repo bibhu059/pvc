@@ -7,3 +7,14 @@
 //
 
 import Foundation
+
+struct PlastEfficiencyModel {
+    private (set) public var plasticizerName : String
+    private (set) public var plasticizerEfficiency : String
+    
+    init(Name : String , Efficiency : String)
+    {
+        self.plasticizerName = Name
+        self.plasticizerEfficiency = Efficiency
+    }
+}

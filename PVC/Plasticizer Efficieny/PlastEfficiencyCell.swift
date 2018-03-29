@@ -10,15 +10,13 @@ import UIKit
 
 class PlastEfficiencyCell: UITableViewCell {
 
-    override func awakeFromNib() {
-        super.awakeFromNib()
-        // Initialization code
+    @IBOutlet weak var efficiency: UILabel!
+    @IBOutlet weak var plasticizerName: UILabel!
+  
+    func updatePlasticizerNameAndEfficiencyinTableViewCell(chemicalNameAndEfficiencyDetails : PlastEfficiencyModel)
+    {
+        plasticizerName.text = chemicalNameAndEfficiencyDetails.plasticizerName
+        efficiency.text = chemicalNameAndEfficiencyDetails.plasticizerEfficiency
+        
     }
-
-    override func setSelected(_ selected: Bool, animated: Bool) {
-        super.setSelected(selected, animated: animated)
-
-        // Configure the view for the selected state
-    }
-
 }

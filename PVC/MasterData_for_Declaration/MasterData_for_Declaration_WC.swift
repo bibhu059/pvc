@@ -78,6 +78,7 @@ class Wires_Cables_Category_MasterData {
     //This array contains the type of grades falling under FRLS Insulation Compound
     private let itemlist_menu_categories_details_type_frls = [
         Wires_Cables_Details_Menu(grade_name: "FRLS Type-A / Type-D", version_name: "1",type : "F"),
+        Wires_Cables_Details_Menu(grade_name: "FRLS Type-A", version_name: "1", type: "F"),
         Wires_Cables_Details_Menu(grade_name: "SFR-16 & SFR-24 - Shriram", version_name: "5", type: "F")
         
     ]
@@ -96,6 +97,9 @@ class Wires_Cables_Category_MasterData {
     private let itemlist_menu_categories_details_non_fr_skin=[
         Wires_Cables_Details_Menu(grade_name: "NON FR High Speed SKIN(1.32 SG)", version_name: "1", type: "NON_FR_SKIN"),
         Wires_Cables_Details_Menu(grade_name: "NON FR Low Speed SKIN(1.34 SG)", version_name: "2", type: "NON_FR_SKIN"),
+        Wires_Cables_Details_Menu(grade_name: "Finolex SKIN", version_name: "1", type: "NON_FR_SKIN"),
+        Wires_Cables_Details_Menu(grade_name: "Polycab SKIN", version_name: "1", type: "NON_FR_SKIN"),
+        Wires_Cables_Details_Menu(grade_name: "Transparent SKIN", version_name: "1", type: "NON_FR_SKIN"),
         Wires_Cables_Details_Menu(grade_name: "CW 22 - Shriram SKIN", version_name: "1", type: "NON_FR_SKIN"),
         Wires_Cables_Details_Menu(grade_name: "CW 23 - Shriram SKIN", version_name: "1", type: "NON_FR_SKIN"),
         Wires_Cables_Details_Menu(grade_name: "SA 23 - Shriram SKIN", version_name: "1", type: "NON_FR_SKIN")
@@ -572,6 +576,20 @@ class Wires_Cables_Category_MasterData {
         Wires_Cables_Formulation_Menu(chemical_name: "Finalux GCC-10", phr_value: "2"),
         Wires_Cables_Formulation_Menu(chemical_name: "Calcined Clay Polestar-450", phr_value: "7")
     ]
+    private let wc_formulation_details_fr_type_a_frls = [
+        Wires_Cables_Formulation_Menu(chemical_name: "LS 1300 Resin", phr_value: "100"),
+        Wires_Cables_Formulation_Menu(chemical_name: "Epoxyidised Soyabean Oil", phr_value: "5"),
+        Wires_Cables_Formulation_Menu(chemical_name: "ATH Martinal Leo 104C", phr_value: "30"),
+        Wires_Cables_Formulation_Menu(chemical_name: "Omyacarb 2T IP", phr_value: "15"),
+        Wires_Cables_Formulation_Menu(chemical_name: "PKX 2292", phr_value: "6"),
+        Wires_Cables_Formulation_Menu(chemical_name: "Zinc Borate", phr_value: "5"),
+        Wires_Cables_Formulation_Menu(chemical_name: "Antimony Trioxide", phr_value: "2.4"),
+        Wires_Cables_Formulation_Menu(chemical_name: "Acitilox CAHC", phr_value: "5"),
+        Wires_Cables_Formulation_Menu(chemical_name: "Lubrizol DP 401", phr_value: "0.2"),
+        Wires_Cables_Formulation_Menu(chemical_name: "DINP", phr_value: "50"),
+        Wires_Cables_Formulation_Menu(chemical_name: "Paraffin Wax", phr_value: "0.2"),
+        Wires_Cables_Formulation_Menu(chemical_name: "Fumed Silica", phr_value: "5")
+    ]
     
     //Store the data of FRLS Sheathing Compound Formulation
     private let wc_formulation_details_fr_type_frls_st = [
@@ -621,6 +639,8 @@ class Wires_Cables_Category_MasterData {
         Wires_Cables_Formulation_Menu(chemical_name: "Epoxyidised Soyabean Oil", phr_value: "1"),
         Wires_Cables_Formulation_Menu(chemical_name: "Calcium Carbonate-20 Microns", phr_value: "1"),
         Wires_Cables_Formulation_Menu(chemical_name: "TBLS-Baerlocher", phr_value: "6"),
+        Wires_Cables_Formulation_Menu(chemical_name: "DBLS-Baerlocher", phr_value: "0.4"),
+        Wires_Cables_Formulation_Menu(chemical_name: "Fine Plastaid-T", phr_value: "0.2"),
         Wires_Cables_Formulation_Menu(chemical_name: "Calcium Stearate-Baerlocher", phr_value: "0.4"),
         Wires_Cables_Formulation_Menu(chemical_name: "Paraffin Wax", phr_value: "0.4"),
         Wires_Cables_Formulation_Menu(chemical_name: "Lead Stearate", phr_value: "0.4"),
@@ -633,6 +653,8 @@ class Wires_Cables_Category_MasterData {
         Wires_Cables_Formulation_Menu(chemical_name: "Epoxyidised Soyabean Oil", phr_value: "1"),
         Wires_Cables_Formulation_Menu(chemical_name: "Calcium Carbonate-20 Microns", phr_value: "8"),
         Wires_Cables_Formulation_Menu(chemical_name: "TBLS-Baerlocher", phr_value: "6"),
+        Wires_Cables_Formulation_Menu(chemical_name: "DBLS-Baerlocher", phr_value: "0.4"),
+        Wires_Cables_Formulation_Menu(chemical_name: "Fine Plastaid-T", phr_value: "0.2"),
         Wires_Cables_Formulation_Menu(chemical_name: "Calcium Stearate-Baerlocher", phr_value: "0.4"),
         Wires_Cables_Formulation_Menu(chemical_name: "Paraffin Wax", phr_value: "0.5"),
         Wires_Cables_Formulation_Menu(chemical_name: "Lead Stearate", phr_value: "0.5"),
@@ -669,6 +691,43 @@ class Wires_Cables_Category_MasterData {
     Wires_Cables_Formulation_Menu(chemical_name: "CPW 52%", phr_value: "6"),
     Wires_Cables_Formulation_Menu(chemical_name: "Epoxyidized Soyabean Oil", phr_value: "3")
     ]
+    private let wc_formulation_details_skin_transparent_shriram = [
+        Wires_Cables_Formulation_Menu(chemical_name: "SR 10 A Resin", phr_value: "100"),
+        Wires_Cables_Formulation_Menu(chemical_name: "Omyacarb 1T IP", phr_value: "1.5"),
+        Wires_Cables_Formulation_Menu(chemical_name: "CaZn (RUP 144 BT)", phr_value: "8"),
+        Wires_Cables_Formulation_Menu(chemical_name: "Lead Stearate", phr_value: "0.6"),
+        Wires_Cables_Formulation_Menu(chemical_name: "Calcium Stearate", phr_value: "0.5"),
+        Wires_Cables_Formulation_Menu(chemical_name: "Finalux GCC 10", phr_value: "1.5"),
+        Wires_Cables_Formulation_Menu(chemical_name: "AC 316A", phr_value: "1"),
+        Wires_Cables_Formulation_Menu(chemical_name: "Paraffin Wax", phr_value: "0.5"),
+        Wires_Cables_Formulation_Menu(chemical_name: "DOP", phr_value: "40")
+    ]
+    private let wc_formulation_details_skin_finolex_shriram = [
+        Wires_Cables_Formulation_Menu(chemical_name: "SR 10 A Resin", phr_value: "100"),
+        Wires_Cables_Formulation_Menu(chemical_name: "Omyacarb 1T IP", phr_value: "1.5"),
+        Wires_Cables_Formulation_Menu(chemical_name: "Stearic Acid", phr_value: "1"),
+        Wires_Cables_Formulation_Menu(chemical_name: "TBLS", phr_value: "6"),
+        Wires_Cables_Formulation_Menu(chemical_name: "Lead Stearate", phr_value: "1"),
+        Wires_Cables_Formulation_Menu(chemical_name: "Calcium Stearate", phr_value: "0.6"),
+        Wires_Cables_Formulation_Menu(chemical_name: "Finalux GCC 10", phr_value: "1.5"),
+        Wires_Cables_Formulation_Menu(chemical_name: "AC 316A", phr_value: "0.5"),
+        Wires_Cables_Formulation_Menu(chemical_name: "Irganox 1076", phr_value: "0.1"),
+        Wires_Cables_Formulation_Menu(chemical_name: "DOP", phr_value: "44"),
+        Wires_Cables_Formulation_Menu(chemical_name: "CPW", phr_value: "6")
+    ]
+    private let wc_formulation_details_skin_polycab_shriram = [
+        Wires_Cables_Formulation_Menu(chemical_name: "SR 10 A Resin", phr_value: "100"),
+        Wires_Cables_Formulation_Menu(chemical_name: "Omyacarb 1T IP", phr_value: "6"),
+        Wires_Cables_Formulation_Menu(chemical_name: "TBLS", phr_value: "6"),
+        Wires_Cables_Formulation_Menu(chemical_name: "DBLS", phr_value: "0.3"),
+        Wires_Cables_Formulation_Menu(chemical_name: "Lead Stearate", phr_value: "1"),
+        Wires_Cables_Formulation_Menu(chemical_name: "Calcium Stearate", phr_value: "0.5"),
+        Wires_Cables_Formulation_Menu(chemical_name: "Finalux GCC 10", phr_value: "1.5"),
+        Wires_Cables_Formulation_Menu(chemical_name: "Stearic Acid", phr_value: "0.2"),
+        Wires_Cables_Formulation_Menu(chemical_name: "AC 316A", phr_value: "0.5"),
+        Wires_Cables_Formulation_Menu(chemical_name: "DOP", phr_value: "44")
+    ]
+    
     //Store the data of Sheathing Compound for Multicore Cable Applications Formulation
     private let wc_formulation_details_fr_st_mcore = [
         Wires_Cables_Formulation_Menu(chemical_name: "P-1000 / TK-1000 Resin", phr_value: "100"),
@@ -917,6 +976,8 @@ class Wires_Cables_Category_MasterData {
         //FRLS Type -A & Type -D Category Wires & Cables Compound Formulation
         case "FRLS Type-A / Type-D":
             return show_type_frls()
+        case "FRLS Type-A":
+            return show_typea_frls()
         case "SFR-16 & SFR-24 - Shriram":
             return show_type_frlsh_shriram_sfr_16_24()
         case "FRLS Sheathing ST3 (1.60 SG)":
@@ -937,6 +998,12 @@ class Wires_Cables_Category_MasterData {
             return show_type_non_fr_cw23_shriram_skin()
         case "SA 23 - Shriram SKIN":
             return show_type_non_fr_sa23_shriram_skin()
+        case "Finolex SKIN":
+            return show_type_non_fr_finolex_skin()
+        case "Polycab SKIN":
+            return show_type_non_fr_polycab_skin()
+        case "Transparent SKIN":
+            return show_type_non_fr_transparent_skin()
         //Sheathing Compound Formulation-Anchor
         case "FR Sheathing ST3(1.50 SG)":
             return show_type_fr_st_mcore()
@@ -1052,6 +1119,9 @@ class Wires_Cables_Category_MasterData {
     func show_type_frlsh_shriram_sfr_16_24()->[Wires_Cables_Formulation_Menu]{
         return wc_formulations_details_st_mcore_shriram_sfr16
     }
+    func show_typea_frls()->[Wires_Cables_Formulation_Menu]{
+        return wc_formulation_details_fr_type_a_frls
+    }
     ////////////////Functions for calling respective FRLS Sheathing type Formulations///////////////////
     
     func show_type_frls_st()->[Wires_Cables_Formulation_Menu]{
@@ -1081,6 +1151,15 @@ class Wires_Cables_Category_MasterData {
     }
     func show_type_non_fr_sa23_shriram_skin() ->[Wires_Cables_Formulation_Menu]{
         return wc_formulation_details_skin_sa_23_shriram
+    }
+    func show_type_non_fr_finolex_skin() ->[Wires_Cables_Formulation_Menu]{
+        return wc_formulation_details_skin_finolex_shriram
+    }
+    func show_type_non_fr_polycab_skin() ->[Wires_Cables_Formulation_Menu]{
+        return wc_formulation_details_skin_polycab_shriram
+    }
+    func show_type_non_fr_transparent_skin()-> [Wires_Cables_Formulation_Menu] {
+        return wc_formulation_details_skin_transparent_shriram
     }
     ////////////////Functions for calling respective Multicore Sheathing Compound Formulations-Anchor///////////////////
     

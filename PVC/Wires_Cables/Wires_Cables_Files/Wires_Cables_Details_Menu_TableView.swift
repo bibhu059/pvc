@@ -13,7 +13,7 @@ class Wires_Cables_Details_Menu_TableView: UIViewController ,UITableViewDataSour
   
     @IBOutlet weak var grades_version_details: UITableView!
     
-    private(set) public var wires_cables_details_menu  = [Wires_Cables_Details_Menu]()
+    private (set) public var wires_cables_details_menu  = [Wires_Cables_Details_Menu]()
 
     override func viewDidLoad() {
         super.viewDidLoad()

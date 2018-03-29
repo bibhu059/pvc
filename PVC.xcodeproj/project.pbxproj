@@ -21,6 +21,14 @@
 		3F14D6A31F9CAAEE00DA595B /* Wires_Cables_Category_List_Menu.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F14D6A21F9CAAEE00DA595B /* Wires_Cables_Category_List_Menu.swift */; };
 		3F14D6A61F9CAC0600DA595B /* MasterData_for_Declaration_WC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F14D6A51F9CAC0600DA595B /* MasterData_for_Declaration_WC.swift */; };
 		3F14D6A91F9CAE7600DA595B /* Wires_Cables_Menu_Cell_IdentifierTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F14D6A81F9CAE7600DA595B /* Wires_Cables_Menu_Cell_IdentifierTableViewCell.swift */; };
+		3F1D5120206033DD00528CA7 /* Plasticizer_Efficiency_Model.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F1D511F206033DD00528CA7 /* Plasticizer_Efficiency_Model.swift */; };
+		3F1D5122206033FE00528CA7 /* Plasticizer_Name_Database.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F1D5121206033FE00528CA7 /* Plasticizer_Name_Database.swift */; };
+		3F1D51242060341A00528CA7 /* PlastEfficiencyCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F1D51232060341A00528CA7 /* PlastEfficiencyCell.swift */; };
+		3F1D51262060346500528CA7 /* PlastEfficiencyController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F1D51252060346500528CA7 /* PlastEfficiencyController.swift */; };
+		3F2ACD81205EC229007AA73B /* SpGravityController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F2ACD80205EC229007AA73B /* SpGravityController.swift */; };
+		3F2ACD83205EC31D007AA73B /* SpGravityModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F2ACD82205EC31D007AA73B /* SpGravityModel.swift */; };
+		3F2ACD85205EC911007AA73B /* SpGravityView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F2ACD84205EC911007AA73B /* SpGravityView.swift */; };
+		3F2ACD87205EC9CE007AA73B /* chemicalNames.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F2ACD86205EC9CE007AA73B /* chemicalNames.swift */; };
 		3F2D583D1FA24CF900B6D5AF /* Wires_Cables_Formulation_Menu.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F2D583C1FA24CF900B6D5AF /* Wires_Cables_Formulation_Menu.swift */; };
 		3F30872F2007DDB000730565 /* Density_Price_Calculation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F30872E2007DDB000730565 /* Density_Price_Calculation.swift */; };
 		3F3087322007DEE900730565 /* Density_Price_Calculation_TableView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F3087312007DEE900730565 /* Density_Price_Calculation_TableView.swift */; };
@@ -70,6 +78,14 @@
 		3F14D6A21F9CAAEE00DA595B /* Wires_Cables_Category_List_Menu.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Wires_Cables_Category_List_Menu.swift; sourceTree = "<group>"; };
 		3F14D6A51F9CAC0600DA595B /* MasterData_for_Declaration_WC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MasterData_for_Declaration_WC.swift; sourceTree = "<group>"; };
 		3F14D6A81F9CAE7600DA595B /* Wires_Cables_Menu_Cell_IdentifierTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Wires_Cables_Menu_Cell_IdentifierTableViewCell.swift; sourceTree = "<group>"; };
+		3F1D511F206033DD00528CA7 /* Plasticizer_Efficiency_Model.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Plasticizer_Efficiency_Model.swift; sourceTree = "<group>"; };
+		3F1D5121206033FE00528CA7 /* Plasticizer_Name_Database.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Plasticizer_Name_Database.swift; sourceTree = "<group>"; };
+		3F1D51232060341A00528CA7 /* PlastEfficiencyCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlastEfficiencyCell.swift; sourceTree = "<group>"; };
+		3F1D51252060346500528CA7 /* PlastEfficiencyController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlastEfficiencyController.swift; sourceTree = "<group>"; };
+		3F2ACD80205EC229007AA73B /* SpGravityController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SpGravityController.swift; sourceTree = "<group>"; };
+		3F2ACD82205EC31D007AA73B /* SpGravityModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SpGravityModel.swift; sourceTree = "<group>"; };
+		3F2ACD84205EC911007AA73B /* SpGravityView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SpGravityView.swift; sourceTree = "<group>"; };
+		3F2ACD86205EC9CE007AA73B /* chemicalNames.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = chemicalNames.swift; sourceTree = "<group>"; };
 		3F2D583C1FA24CF900B6D5AF /* Wires_Cables_Formulation_Menu.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Wires_Cables_Formulation_Menu.swift; sourceTree = "<group>"; };
 		3F30872E2007DDB000730565 /* Density_Price_Calculation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Density_Price_Calculation.swift; sourceTree = "<group>"; };
 		3F3087312007DEE900730565 /* Density_Price_Calculation_TableView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Density_Price_Calculation_TableView.swift; sourceTree = "<group>"; };
@@ -159,7 +175,8 @@
 				3FD727D41FDC26960071DAF7 /* Automotives */,
 				3FD727D51FDC269F0071DAF7 /* Medicals */,
 				3F39BF201FDCDEBE00529532 /* Footwear */,
-				3FD727D61FDC26A60071DAF7 /* Compounding Tricks */,
+				3FD727D61FDC26A60071DAF7 /* Specific_Gravity_Additives */,
+				3F1D511E2060339100528CA7 /* Plasticizer Efficieny */,
 				3F0284112059966F00684DDA /* Auto_BOM_Calculation */,
 				3F3087302007DE8100730565 /* Density_Price_Calculation */,
 				3F9285C52020D81600E58233 /* PVC Compounding Fundamentals */,
@@ -205,6 +222,17 @@
 				3F39BF1D1FDCDE9B00529532 /* MasterData_for_Declaration_Footwear.swift */,
 			);
 			path = MasterData_for_Declaration;
+			sourceTree = "<group>";
+		};
+		3F1D511E2060339100528CA7 /* Plasticizer Efficieny */ = {
+			isa = PBXGroup;
+			children = (
+				3F1D511F206033DD00528CA7 /* Plasticizer_Efficiency_Model.swift */,
+				3F1D5121206033FE00528CA7 /* Plasticizer_Name_Database.swift */,
+				3F1D51232060341A00528CA7 /* PlastEfficiencyCell.swift */,
+				3F1D51252060346500528CA7 /* PlastEfficiencyController.swift */,
+			);
+			path = "Plasticizer Efficieny";
 			sourceTree = "<group>";
 		};
 		3F3087302007DE8100730565 /* Density_Price_Calculation */ = {
@@ -340,11 +368,15 @@
 			path = Medicals;
 			sourceTree = "<group>";
 		};
-		3FD727D61FDC26A60071DAF7 /* Compounding Tricks */ = {
+		3FD727D61FDC26A60071DAF7 /* Specific_Gravity_Additives */ = {
 			isa = PBXGroup;
 			children = (
+				3F2ACD82205EC31D007AA73B /* SpGravityModel.swift */,
+				3F2ACD84205EC911007AA73B /* SpGravityView.swift */,
+				3F2ACD80205EC229007AA73B /* SpGravityController.swift */,
+				3F2ACD86205EC9CE007AA73B /* chemicalNames.swift */,
 			);
-			path = "Compounding Tricks";
+			path = Specific_Gravity_Additives;
 			sourceTree = "<group>";
 		};
 		3FD727D81FDC27DB0071DAF7 /* Medical_TableView_Cell */ = {
@@ -516,6 +548,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				3F3087362007E00E00730565 /* Density_Price_Chemical_Masterdata.swift in Sources */,
+				3F2ACD83205EC31D007AA73B /* SpGravityModel.swift in Sources */,
+				3F1D5120206033DD00528CA7 /* Plasticizer_Efficiency_Model.swift in Sources */,
 				3F30872F2007DDB000730565 /* Density_Price_Calculation.swift in Sources */,
 				3FCA59781FA38C5100C82709 /* WC_Formulation_TableView.swift in Sources */,
 				3F39BF161FDCDE0A00529532 /* MasterData_for_Declaration_Automotives.swift in Sources */,
@@ -528,12 +562,14 @@
 				3F14D6A61F9CAC0600DA595B /* MasterData_for_Declaration_WC.swift in Sources */,
 				3F7B16621FDCFE40006357E5 /* AT_Formulation_TableView.swift in Sources */,
 				3F14D6A01F9CA93100DA595B /* Wires_Cables_Items_Menu_TableView.swift in Sources */,
+				3F1D51262060346500528CA7 /* PlastEfficiencyController.swift in Sources */,
 				3F02841920599A1800684DDA /* TableViewController.swift in Sources */,
 				3FD727DB1FDC28570071DAF7 /* Medicals_Category_List_Menu.swift in Sources */,
 				3FC24A301F9E26480067836D /* Wires_Cables_Details_Menu.swift in Sources */,
 				3F0284132059988000684DDA /* Cell_Components_Model.swift in Sources */,
 				3FB9A3C21FEF7FF200241226 /* TextFiledText.swift in Sources */,
 				3F14D68D1F9C9CF000DA595B /* MainVC.swift in Sources */,
+				3F2ACD87205EC9CE007AA73B /* chemicalNames.swift in Sources */,
 				3F14D6A31F9CAAEE00DA595B /* Wires_Cables_Category_List_Menu.swift in Sources */,
 				3F7B16641FDCFE72006357E5 /* Automotives_Forumulation_TableViewCell.swift in Sources */,
 				3F7B16521FDCE0DD006357E5 /* Automotives_Category_List_Menu.swift in Sources */,
@@ -544,12 +580,16 @@
 				3F57B3842024D9BC00270F90 /* RM_TestMethods_ViewController.swift in Sources */,
 				3F2D583D1FA24CF900B6D5AF /* Wires_Cables_Formulation_Menu.swift in Sources */,
 				3F7B16601FDCF074006357E5 /* Automotives_Grades_Menu_Cell_IdentifierTableViewCell.swift in Sources */,
+				3F2ACD85205EC911007AA73B /* SpGravityView.swift in Sources */,
 				3F7B16661FDCFE99006357E5 /* Automotives_Formulation_Menu.swift in Sources */,
 				3F028417205999DA00684DDA /* TableViewCell.swift in Sources */,
 				3FD727CE1FDC25400071DAF7 /* MasterData_for_Declaration_Medical.swift in Sources */,
+				3F1D5122206033FE00528CA7 /* Plasticizer_Name_Database.swift in Sources */,
 				3FD727DD1FDC2A0E0071DAF7 /* Medicals_Cell_IdentifierTableViewCell.swift in Sources */,
 				3F14D6A91F9CAE7600DA595B /* Wires_Cables_Menu_Cell_IdentifierTableViewCell.swift in Sources */,
 				3FD727E31FDC4D270071DAF7 /* Medicals_Item_Menu_TableView.swift in Sources */,
+				3F1D51242060341A00528CA7 /* PlastEfficiencyCell.swift in Sources */,
+				3F2ACD81205EC229007AA73B /* SpGravityController.swift in Sources */,
 				3FC24A2E1F9E23990067836D /* Wires_Cables_Menu_Details_Cell_IdentifierTableViewCell.swift in Sources */,
 				3FCA59741FA38AF700C82709 /* Wires_Cables_Formulation_TableViewCell.swift in Sources */,
 				3F7B165A1FDCE883006357E5 /* AT_Items_Menu_TableView.swift in Sources */,

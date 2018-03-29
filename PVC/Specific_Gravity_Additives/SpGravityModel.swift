@@ -7,3 +7,13 @@
 //
 
 import Foundation
+
+struct ChemicalSpGravityModel {    
+    private (set) public var additiveNames : String
+    private (set) public var spGravity : String
+    
+    init(Names : String , Gravity : String) {
+        self.additiveNames = Names
+        self.spGravity = Gravity
+    }
+ }
